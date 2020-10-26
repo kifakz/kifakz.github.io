@@ -1,0 +1,2772 @@
+Uri: https://kifa.kz/
+File Name: C:\Downloaded Web Sites\kifa.kz\index.htm
+Content Type: text/html
+
+Uri: https://kifa.kz/vendor/simple-line-icons/simple-line-icons.min.css
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\simple-line-icons\simple-line-icons.min.css
+Content Type: text/css
+
+Uri: https://kifa.kz/vendor/bootstrap/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\bootstrap\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://kifa.kz/css/animate.css
+File Name: C:\Downloaded Web Sites\kifa.kz\css\animate.css
+Content Type: text/css
+
+Uri: https://kifa.kz/vendor/swiper/css/swiper.min.css
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\swiper\css\swiper.min.css
+Content Type: text/css
+
+Uri: https://kifa.kz/css/layout.min.css?v=1.1
+File Name: C:\Downloaded Web Sites\kifa.kz\css\layout.min.css
+Content Type: text/css
+
+Uri: https://kifa.kz/favicon.ico
+File Name: C:\Downloaded Web Sites\kifa.kz\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://kifa.kz/bible/stoliar/
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\index.htm
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\index.htm
+Content Type: text/html
+
+Uri: https://kifa.kz/sidur/
+File Name: C:\Downloaded Web Sites\kifa.kz\sidur\index.htm
+Content Type: text/html
+
+Uri: https://kifa.kz/coordinates.php
+File Name: C:\Downloaded Web Sites\kifa.kz\coordinates.php.html
+Content Type: text/html
+
+Uri: https://www.youtube.com/user/kifakz
+File Name: C:\Downloaded Web Sites\kifa.kz\user\kifakz.html
+Content Type: text/html
+
+Uri: https://www.facebook.com/www.kifa.kz
+File Name: C:\Downloaded Web Sites\kifa.kz\www.kifa.kz.html
+Content Type: text/html
+
+Uri: https://kifa.kz/coordinates.php/
+File Name: C:\Downloaded Web Sites\kifa.kz\coordinates.php\index.htm
+Content Type: text/html
+
+Uri: https://kifa.kz/img/connie_23.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\img\connie_23.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/img/logo.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\img\logo.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/img/youtube.png
+File Name: C:\Downloaded Web Sites\kifa.kz\img\youtube.png
+Content Type: image/png
+
+Uri: https://kifa.kz/img/fb.png
+File Name: C:\Downloaded Web Sites\kifa.kz\img\fb.png
+Content Type: image/png
+
+Uri: https://kifa.kz/vendor/jquery.min.js
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/vendor/jquery-migrate.min.js
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\jquery-migrate.min.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/vendor/bootstrap/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\bootstrap\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/vendor/jquery.easing.js
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\jquery.easing.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/vendor/jquery.back-to-top.js
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\jquery.back-to-top.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/vendor/jquery.wow.min.js
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\jquery.wow.min.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/vendor/swiper/js/swiper.jquery.min.js
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\swiper\js\swiper.jquery.min.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/vendor/masonry/jquery.masonry.pkgd.min.js
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\masonry\jquery.masonry.pkgd.min.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/vendor/masonry/imagesloaded.pkgd.min.js
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\masonry\imagesloaded.pkgd.min.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/js/layout.min.js
+File Name: C:\Downloaded Web Sites\kifa.kz\js\layout.min.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/js/components/wow.min.js
+File Name: C:\Downloaded Web Sites\kifa.kz\js\components\wow.min.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/js/components/swiper.min.js
+File Name: C:\Downloaded Web Sites\kifa.kz\js\components\swiper.min.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/js/components/masonry.min.js
+File Name: C:\Downloaded Web Sites\kifa.kz\js\components\masonry.min.js
+Content Type: application/javascript
+
+Uri: https://kifa.kz/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\simple-line-icons\fonts\Simple-Line-Icons.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://kifa.kz/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot?
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\simple-line-icons\fonts\Simple-Line-Icons-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://kifa.kz/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\simple-line-icons\fonts\Simple-Line-Icons.woff
+Content Type: font/woff
+
+Uri: https://kifa.kz/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\simple-line-icons\fonts\Simple-Line-Icons.ttf
+Content Type: application/octet-stream
+
+Uri: https://kifa.kz/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\simple-line-icons\fonts\Simple-Line-Icons.svg
+Content Type: image/svg+xml
+
+Uri: https://kifa.kz/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://kifa.kz/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot?
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\bootstrap\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://kifa.kz/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff2
+Content Type: font/woff2
+
+Uri: https://kifa.kz/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff
+Content Type: font/woff
+
+Uri: https://kifa.kz/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf
+Content Type: application/octet-stream
+
+Uri: https://kifa.kz/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg
+File Name: C:\Downloaded Web Sites\kifa.kz\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: https://kifa.kz/css/style.css
+File Name: C:\Downloaded Web Sites\kifa.kz\css\style.css
+Content Type: text/css
+
+Uri: https://kifa.kz/css/style-print.css
+File Name: C:\Downloaded Web Sites\kifa.kz\css\style-print.css
+Content Type: text/css
+
+Uri: https://kifa.kz/bible/stoliar/00.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\00.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/tora_detskaya_kifa.kz.zip
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\tora_detskaya_kifa.kz.zip
+Content Type: application/zip
+
+Uri: https://kifa.kz/bible/stoliar/01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/17.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\17.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/18.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\18.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/19.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\19.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/20.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\20.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/21.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\21.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/22.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\22.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/23.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\23.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/24.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\24.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/25.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\25.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/26.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\26.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/27.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\27.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/28.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\28.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/29.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\29.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/30.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\30.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/31.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\31.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/32.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\32.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/33.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\33.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/34.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\34.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/35.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\35.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/36.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\36.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/37.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\37.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/38.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\38.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/39.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\39.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/40.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\40.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/41.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\41.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/42.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\42.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/43.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\43.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/44.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\44.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/45.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\45.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/46.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\46.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/47.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\47.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/48.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\48.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/49.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\49.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/50.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\50.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/51.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\51.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/52.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\52.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/53.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\53.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/54.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\54.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/55.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\55.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/56.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\56.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/57.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\57.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/58.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\58.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/59.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\59.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/60.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\60.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/61.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\61.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/62.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\62.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/63.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\63.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/64.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\64.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/65.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\65.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/66.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\66.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/67.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\67.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/68.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\68.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/69.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\69.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/70.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\70.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/71.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\71.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/72.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\72.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/73.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\73.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/74.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\74.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/75.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\75.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/76.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\76.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/77.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\77.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/78.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\78.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/79.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\79.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/80.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\80.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/81.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\81.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/82.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\82.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/83.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\83.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/84.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\84.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stoliar/85.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stoliar\85.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/img/koo-koo.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\img\koo-koo.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/img/vk.png
+File Name: C:\Downloaded Web Sites\kifa.kz\img\vk.png
+Content Type: image/png
+
+Uri: https://kifa.kz/img/sarcastic_hand.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\img\sarcastic_hand.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/eng/bible/stern/
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\index.htm
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_komment_vvedenie_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_komment_vvedenie_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_vvedenie_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_vvedenie_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_vvedenie_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_vvedenie_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_vvedenie_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_vvedenie_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_vvedenie_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_vvedenie_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_vvedenie_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_vvedenie_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_vvedenie_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_vvedenie_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_galatam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_galatam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_efesianam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_efesianam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_filippiycam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_filippiycam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_kolossianam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_kolossianam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_fessalonikiycam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_fessalonikiycam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-fessalonikiycam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-fessalonikiycam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-timofeiu_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-timofeiu_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-timofeiu_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-timofeiu_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_titu_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_titu_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_filimonu_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_filimonu_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yaakov_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yaakov_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_01_kefa_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_01_kefa_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_02_kefa_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_02_kefa_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_01_yohanan_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_01_yohanan_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_02_yohanan_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_02_yohanan_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_03_yohanan_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_03_yohanan_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yuda_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yuda_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/mem/
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\index.htm
+Content Type: text/html
+
+Uri: https://www.el-hi.com/
+File Name: C:\Downloaded Web Sites\kifa.kz\index-1.htm
+Content Type: text/html
+
+Uri: https://metrika.yandex.ru/dashboard?id=12972118&from=informer
+File Name: C:\Downloaded Web Sites\kifa.kz\dashboard.html
+Content Type: text/html
+
+Uri: https://a4.radioheart.ru:9002/RH6003
+File Name: C:\Downloaded Web Sites\kifa.kz\RH6003.mpga
+Content Type: audio/mpeg
+
+Uri: https://kifa.kz/img/bg.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\img\bg.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/img/h1-bg.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\img\h1-bg.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/img/h3-bg.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\img\h3-bg.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/img/menu-bg.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\img\menu-bg.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/img/li-border.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\img\li-border.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/img/rss-icon.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\img\rss-icon.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/img/content-bg.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\img\content-bg.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/css/coralstyle.css
+File Name: C:\Downloaded Web Sites\kifa.kz\css\coralstyle.css
+Content Type: text/css
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_galatam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_galatam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_efesianam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_efesianam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_filippiycam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_filippiycam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_kolossianam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_kolossianam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_fessalonikiycam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_fessalonikiycam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-fessalonikiycam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-fessalonikiycam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-timofeiu_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-timofeiu_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-timofeiu_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-timofeiu_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_titu_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_titu_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_filimonu_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_filimonu_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yaakov_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yaakov_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_01_kefa_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_01_kefa_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_02_kefa_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_02_kefa_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_01_yohanan_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_01_yohanan_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_02_yohanan_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_02_yohanan_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_03_yohanan_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_03_yohanan_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yuda_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yuda_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_01.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_01.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_17.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_17.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_18.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_18.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_19.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_19.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_20.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_20.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_21.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_21.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_22.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_22.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_23.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_23.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_24.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_24.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_25.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_25.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_26.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_26.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_27.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_27.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_matfey_28.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_matfey_28.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_mark_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_mark_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/ill/smile.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\ill\smile.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/bible/stern/stern_luka_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_17.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_17.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_18.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_18.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_19.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_19.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_20.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_20.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_21.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_21.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_22.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_22.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_23.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_23.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_luka_24.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_luka_24.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_17.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_17.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_18.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_18.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_19.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_19.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_20.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_20.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yohanan_21.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yohanan_21.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_17.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_17.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_18.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_18.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_19.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_19.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_20.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_20.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_21.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_21.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_22.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_22.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_23.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_23.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_24.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_24.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_25.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_25.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_26.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_26.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_27.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_27.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_deyatelnost_28.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_deyatelnost_28.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_rimlyanam_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_rimlyanam_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-e_korinfyanam_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-e_korinfyanam_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-e_korinfyanam_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-e_korinfyanam_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_galatam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_galatam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_galatam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_galatam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_galatam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_galatam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_galatam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_galatam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_galatam_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_galatam_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_efesianam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_efesianam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_efesianam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_efesianam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_efesianam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_efesianam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_efesianam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_efesianam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_efesianam_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_efesianam_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_filippiycam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_filippiycam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_filippiycam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_filippiycam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_filippiycam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_filippiycam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_kolossianam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_kolossianam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_kolossianam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_kolossianam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_kolossianam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_kolossianam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_fessalonikiycam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_fessalonikiycam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_fessalonikiycam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_fessalonikiycam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_fessalonikiycam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_fessalonikiycam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_fessalonikiycam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_fessalonikiycam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-fessalonikiycam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-fessalonikiycam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-fessalonikiycam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-fessalonikiycam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-timofeiu_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-timofeiu_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-timofeiu_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-timofeiu_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-timofeiu_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-timofeiu_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-timofeiu_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-timofeiu_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_1-timofeiu_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_1-timofeiu_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-timofeiu_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-timofeiu_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-timofeiu_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-timofeiu_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_2-timofeiu_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_2-timofeiu_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_titu_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_titu_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_titu_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_titu_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_evreyam_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_evreyam_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yaakov_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yaakov_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yaakov_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yaakov_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yaakov_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yaakov_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_yaakov_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_yaakov_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_01_kefa_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_01_kefa_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_01_kefa_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_01_kefa_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_01_kefa_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_01_kefa_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_01_kefa_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_01_kefa_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_02_kefa_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_02_kefa_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_02_kefa_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_02_kefa_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_01_yohanan_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_01_yohanan_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_01_yohanan_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_01_yohanan_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_01_yohanan_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_01_yohanan_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_01_yohanan_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_01_yohanan_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/sidur/003.php
+File Name: C:\Downloaded Web Sites\kifa.kz\sidur\003.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_17.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_17.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_18.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_18.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_19.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_19.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_20.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_20.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_21.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_21.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/stern_otkrovenie_22.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\stern_otkrovenie_22.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/mem/001.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\001.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/mem/index.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\index.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/mem/002.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\002.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/mem/003.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\003.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/mem/004.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\004.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/mem/005.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\005.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/mem/006.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\006.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/mem/007.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\007.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/bible/stern/mem/008.php
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\008.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_17.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_17.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_18.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_18.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_19.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_19.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_20.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_20.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_21.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_21.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_22.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_22.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_23.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_23.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_24.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_24.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_25.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_25.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_26.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_26.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_27.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_27.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_matfey_28.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_matfey_28.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_mark_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_mark_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_17.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_17.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_18.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_18.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_19.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_19.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_20.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_20.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_21.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_21.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_22.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_22.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_23.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_23.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_luka_24.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_luka_24.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_17.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_17.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_18.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_18.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_19.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_19.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_20.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_20.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yohanan_21.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yohanan_21.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_17.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_17.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_18.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_18.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_19.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_19.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_20.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_20.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_21.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_21.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_22.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_22.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_23.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_23.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_24.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_24.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_25.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_25.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_26.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_26.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_27.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_27.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_deyatelnost_28.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_deyatelnost_28.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_rimlyanam_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_rimlyanam_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-e_korinfyanam_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-e_korinfyanam_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-e_korinfyanam_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-e_korinfyanam_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_galatam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_galatam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_galatam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_galatam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_galatam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_galatam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_galatam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_galatam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_galatam_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_galatam_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_efesianam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_efesianam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_efesianam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_efesianam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_efesianam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_efesianam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_efesianam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_efesianam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_efesianam_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_efesianam_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_filippiycam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_filippiycam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_filippiycam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_filippiycam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_filippiycam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_filippiycam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_kolossianam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_kolossianam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_kolossianam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_kolossianam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_kolossianam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_kolossianam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_fessalonikiycam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_fessalonikiycam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_fessalonikiycam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_fessalonikiycam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_fessalonikiycam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_fessalonikiycam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_fessalonikiycam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_fessalonikiycam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-fessalonikiycam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-fessalonikiycam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-fessalonikiycam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-fessalonikiycam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-timofeiu_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-timofeiu_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-timofeiu_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-timofeiu_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-timofeiu_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-timofeiu_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-timofeiu_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-timofeiu_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_1-timofeiu_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_1-timofeiu_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-timofeiu_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-timofeiu_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-timofeiu_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-timofeiu_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_2-timofeiu_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_2-timofeiu_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_titu_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_titu_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_titu_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_titu_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_evreyam_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_evreyam_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yaakov_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yaakov_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yaakov_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yaakov_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yaakov_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yaakov_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_yaakov_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_yaakov_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_01_kefa_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_01_kefa_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_01_kefa_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_01_kefa_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_01_kefa_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_01_kefa_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_01_kefa_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_01_kefa_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_02_kefa_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_02_kefa_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_02_kefa_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_02_kefa_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_01_yohanan_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_01_yohanan_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_01_yohanan_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_01_yohanan_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_01_yohanan_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_01_yohanan_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_01_yohanan_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_01_yohanan_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_02.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_02.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_03.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_03.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_04.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_04.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_05.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_05.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_06.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_06.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_07.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_07.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_08.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_08.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_09.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_09.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_10.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_10.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_11.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_11.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_12.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_12.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_13.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_13.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_14.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_14.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_15.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_15.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_16.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_16.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_17.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_17.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_18.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_18.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_19.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_19.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_20.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_20.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_21.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_21.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/eng/bible/stern/stern_otkrovenie_22.php
+File Name: C:\Downloaded Web Sites\kifa.kz\eng\bible\stern\stern_otkrovenie_22.php.html
+Content Type: text/html
+
+Uri: https://kifa.kz/img/download.png
+File Name: C:\Downloaded Web Sites\kifa.kz\img\download.png
+Content Type: image/png
+
+Uri: https://kifa.kz/sidur/gif/044.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\sidur\gif\044.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/sidur/gif/045.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\sidur\gif\045.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/sidur/gif/046.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\sidur\gif\046.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/sidur/gif/047.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\sidur\gif\047.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/sidur/gif/048.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\sidur\gif\048.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/bible/stern/mem/002.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\002.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/bible/stern/mem/001.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\001.gif
+Content Type: image/gif
+
+Uri: https://kifa.kz/bible/stern/mem/003.gif
+File Name: C:\Downloaded Web Sites\kifa.kz\bible\stern\mem\003.gif
+Content Type: image/gif
+

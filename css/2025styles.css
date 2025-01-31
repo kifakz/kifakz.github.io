@@ -1,0 +1,275 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #FF8C00;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header {
+    background: #FFD700;
+    color: #000;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin-top: 5px;
+}
+h1 {
+            font-family: 'Playfair Display', serif; /* Применяем шрифт Playfair Display для заголовка */
+            font-size: 18px; /* Увеличим размер шрифта для заголовка */
+            text-align: center; /* Выравниваем текст по центру */
+            margin-top: 10px; /* Добавляем отступ сверху */
+			color: #000;
+        }
+p {
+  text-align: justify;
+  font-weight: bold; /* или font-weight: 700; */
+  text-indent: 30px;
+  letter-spacing: 0,2px; /* расстояние между буквами */
+}
+.no-underline {
+  text-decoration: none; /* Убираем подчеркивание */
+  color: inherit; /* Наследуем цвет от родительского элемента */
+}
+
+.no-underline:hover {
+    color: inherit; /* Цвет при наведении */
+}
+nav {
+    /* Убираем лишние стили, которые могут мешать <select> */
+    text-align: left; /* Центрируем выпадающий список */
+}
+
+nav select {
+    background-color: #000; /* Цвет фона выпадающего списка */
+    color: #FFD700; /* Цвет текста в выпадающем списке */
+    padding: 5px;
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Закругляем углы */
+    font-size: 16px; /* Размер шрифта */
+    appearance: none; /* Убираем стандартные стили <select> */
+    -webkit-appearance: none; /* Для Safari */
+    -moz-appearance: none; /* Для Firefox */
+    cursor: pointer; /* Курсор-указатель */
+}
+
+nav select:hover {
+    background-color: #FFD700; /* Цвет фона при наведении */
+    color: #000; /* Цвет текста при наведении */
+}
+
+nav select option {
+    background-color: #000; /* Цвет фона пунктов выпадающего списка */
+    color: #FFD700; /* Цвет текста пунктов выпадающего списка */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+	font-family: 'Playfair Display', serif;
+}
+
+main .container {
+    display: flex;
+    gap: 20px;
+    max-width: 960px;
+    margin: 20px auto;
+	padding-bottom: 50px; /* или высота вашего футера */
+}
+
+.left-column {
+    flex: 4;
+    color: #FF8C00;
+
+}
+
+.right-column {
+    flex: 1;
+    background-color: rgba(255, 215, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+}
+
+footer {
+    background: #FFD700;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button {
+    background-color: #FFD700;
+    color: #000;
+    font-family: 'Playfair Display', serif; /* Применяем шрифт */
+    font-size: 22px;
+	font-weight: bold; /* Делаем текст жирнее для акцента */
+    padding: 12px 20px; /* Увеличиваем отступы для удобства */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.dropdown button:hover {
+    background-color: #E6C200;
+    transform: scale(1.05);
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: #222;
+    border: 1px solid #FFD700;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    min-width: 180px;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 10;
+}
+
+.dropdown-menu.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Запрещаем перенос текста в меню */
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #FFD700;
+    display: block;
+    text-align: center;
+    white-space: nowrap; /* Текст всегда в одну строку */
+    transition: background 0.3s ease;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Делаем flex для ВСЕХ ссылок, содержащих иконки */
+.dropdown-menu li a:has(img) {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Но календарь остаётся обычным блоком и НЕ получает flex */
+.dropdown-menu li a:has(img[alt="Еврейские праздники"]) {
+    display: block;
+}
+
+/* Фиксируем размер календаря */
+.dropdown-menu li a img[alt="Еврейские праздники"] {
+    width: 150px !important;
+    height: auto;
+}
+
+/* Корректное выравнивание всех остальных иконок */
+.dropdown-menu li a img {
+    width: 24px; /* Можно изменить при необходимости */
+    height: 24px;
+    vertical-align: middle;
+}
+
+.dropdown-menu li:hover {
+    background: #444;
+	font-family: 'Playfair Display', serif; /* Применяем шрифт */
+}
+
+.dropdown-up .dropdown-menu {
+    bottom: 100%; /* Меню в footer открывается вверх */
+    left: 0;
+}
+  
+audio {
+    width: 180px;
+    height: 40px;
+}
+
+audio::-webkit-media-controls-panel {
+    -webkit-appearance: none; /* Убираем стандартное оформление */
+    display: flex; /* Используем flexbox для управления размещением */
+    justify-content: center; /* Центрируем кнопку play/pause */
+}
+
+/* Скрываем полосу перемотки */
+audio::-webkit-media-controls-timeline {
+    display: none;
+}
+
+/* Скрываем регулятор громкости */
+audio::-webkit-media-controls-volume-control {
+    display: none;
+}
+
+/* Скрываем кнопку "Скачать" (может отличаться в разных браузерах) */
+audio::-webkit-media-controls-download-button {
+    display: none;
+}
+
+/* Скрываем отображение текущего времени и общей продолжительности */
+audio::-webkit-media-controls-time {
+    display: none;
+}
+
+/* Firefox */
+audio::-moz-media-controls-panel {
+    display: flex;
+    justify-content: center;
+}
+
+audio::-moz-media-controls-play-button {
+
+}
+
+audio::-moz-media-controls-volume-control {
+    display: none;
+}
+
+audio::-moz-media-controls-timeline {
+    display: none;
+}
+
+/* Internet Explorer */
+audio::-ms-media-controls {
+    display: flex;
+    justify-content: center;
+}
+
+audio::-ms-media-controls-playpause {
+
+}
+
+audio::-ms-media-controls-volume {
+    display: none;
+}
+
+audio::-ms-media-controls-time {
+    display: none;
+}
+audio::-webkit-media-controls-play-button {
+    background-color: #FFD700;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+@media (max-width: 768px) {
+    iframe {
+        height: 60px; /* Уменьшаем высоту для мобильных устройств */
+    }
+}

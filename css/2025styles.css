@@ -13,11 +13,12 @@ html, body {
 header {
     background: #FFD700;
     color: #000;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 24px;
     margin-top: 5px;
+	width: 100%;
 }
 h1 {
             font-family: 'Playfair Display', serif; /* Применяем шрифт Playfair Display для заголовка */

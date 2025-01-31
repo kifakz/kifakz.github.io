@@ -85,13 +85,13 @@ main .container {
 }
 
 .left-column {
-    flex: 4;
+    flex: 1;
     color: #FF8C00;
 
 }
 
 .right-column {
-    flex: 1;
+    flex: 0;
     background-color: rgba(255, 215, 0, 0.1);
     padding: 20px;
     border-radius: 10px;

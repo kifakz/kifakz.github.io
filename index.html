@@ -25,7 +25,15 @@
   <button onclick="toggleDropdown(this)"><b><a href="https://kifakz.github.io/sidur/index.html" class="no-underline">Сидур</a></b></button>
 </div>
   
-
+		 <div class="dropdown">
+	<button onclick="toggleDropdown(this)"><b>Радио EL-HI</b></button>
+  <ul class="dropdown-menu">
+    <li><audio controls="controls">
+<source src="https://listen.myrh.ru/id06593" type="audio/mpeg" />
+Your browser does not support the audio element.
+</audio></li>
+  </ul>
+</div>
 
 <script>
 function toggleDropdown(button) {
@@ -79,28 +87,23 @@ window.onclick = function (event) {
     </main>
 
     <footer>
+	
+    <div class="dropdown dropdown-up">
+  <button onclick="toggleDropdown(this)"><b>Каналы Telegram</b></button>
+  <ul class="dropdown-menu">
+    <li><a href="https://t.me/hohmabinadaat" target="_blank"><img src="https://kifakz.github.io/img/telegram.png"> Мишлей притчи Шломо</a></li>
+  </ul>
+</div>
+
      <div class="dropdown dropdown-up">
   <button onclick="toggleDropdown(this)"><b>Ближайшие праздники</b></button>
   <ul class="dropdown-menu">
     <li><a href="https://toldot.ru/urava/jdate/" target="_blank"><img src="https://www.calend.ru/img/export/informer_4.png" width="150" alt="Еврейские праздники" border="0"></a></li>
   </ul>
 </div>
-		
-	 <div class="dropdown dropdown-up">
-	<button onclick="toggleDropdown(this)"><b>Радио EL-HI</b></button>
-  <ul class="dropdown-menu">
-    <li><audio controls="controls">
-<source src="https://listen.myrh.ru/id06593" type="audio/mpeg" />
-Your browser does not support the audio element.
-</audio></li>
-  </ul>
-</div>
-     <div class="dropdown dropdown-up">
-  <button onclick="toggleDropdown(this)"><b>Каналы Telegram</b></button>
-  <ul class="dropdown-menu">
-    <li><a href="https://t.me/hohmabinadaat" target="_blank"><img src="https://kifakz.github.io/img/telegram.png"> Мишлей притчи Шломо</a></li>
-  </ul>
-</div>
+
+
+ 
 
     </footer>
 </body>

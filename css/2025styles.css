@@ -325,3 +325,12 @@ audio::-webkit-media-controls-play-button {
     border-radius: 5px;
     padding: 5px;
 }
+@media (max-width: 767px) {
+    main .container {
+        flex-direction: column; /* Колонки теперь идут друг за другом */
+    }
+
+    .left-column {
+        order: -1; /* Поднимаем левую колонку наверх */
+    }
+}

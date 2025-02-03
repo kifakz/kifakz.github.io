@@ -92,7 +92,7 @@ nav select option {
 
 main {
 	flex: 1;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background-color: #000;
 	font-family: 'Playfair Display', serif;
@@ -118,7 +118,7 @@ main .container {
     margin: 0;
     width: 100%; /* Убедимся, что он занимает всю доступную ширину */
     background-color: rgba(255, 215, 0, 0.1);
-    padding: 20px;
+    padding: 0px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
 }

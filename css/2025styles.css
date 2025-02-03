@@ -328,9 +328,15 @@ audio::-webkit-media-controls-play-button {
 @media (max-width: 767px) {
     main .container {
         flex-direction: column; /* Колонки теперь идут друг за другом */
+		max-width: 100%;  /* Контейнер теперь занимает всю ширину экрана */
+		padding: 0;  /* Убираем возможные внутренние отступы */
     }
 
     .left-column {
         order: -1; /* Поднимаем левую колонку наверх */
+    }
+	.right-column {
+        margin: 0;  /* Убираем внешние отступы */
+        width: 100%;  /* Растягиваем на всю ширину */
     }
 }

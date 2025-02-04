@@ -6,7 +6,7 @@
     <title>kifakz.github.io</title>
     <meta name="description" content="Ортодоксальный и мессианский иудаизм">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/2025styles.css?ver=1.018">
+    <link rel="stylesheet" href="css/2025styles.css?ver=1.020">
 </head>
 <body class="main-page">
    <header>
@@ -104,36 +104,37 @@ window.onclick = function (event) {
   </ul>
 </div>
 
-    <div class="dropdown dropdown-up">
+<div class="dropdown dropdown-up">
   <button onclick="toggleDropdown(this)"><b>Случайная мысль</b></button>
   <ul class="dropdown-menu">
     <li>
-	<div id="quote">Загрузка...</div>
+      <div id="quote">Загрузка...</div>
+    </li>
+  </ul>
+</div>
+
 <script>
 async function getRandomQuote() {
     try {
-        const response = await fetch('css/quotes.txt'); // Загружаем файл
-		const text = await response.text();
+        const response = await fetch('quotes.txt'); // Загружаем файл (убран css/)
+        const text = await response.text();
         const quotes = text.split('\n').filter(q => q.trim() !== ''); // Разбиваем по строкам и удаляем пустые строки
         
         if (quotes.length > 0) {
             const randomIndex = Math.floor(Math.random() * quotes.length);
             document.getElementById('quote').innerHTML = quotes[randomIndex];
         } else {
-            document.getElementById('quote').textContent = '';
+            document.getElementById('quote').textContent = 'Нет цитат';
         }
     } catch (error) {
         console.error('Ошибка загрузки цитат:', error);
-        document.getElementById('quote').textContent = '';
+        document.getElementById('quote').textContent = 'Ошибка загрузки';
     }
 }
 
+// Загружаем цитату при загрузке страницы
 document.addEventListener('DOMContentLoaded', getRandomQuote);
-
- </script>
-	</li>
-  </ul>
-</div>
+</script>
 
     </footer>
 	

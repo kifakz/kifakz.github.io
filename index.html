@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/2025styles.css?ver=1.018">
 </head>
-<body>
+<body class="main-page">
    <header>
 <div class="dropdown">
   <button onclick="toggleDropdown(this)"><b><a href="https://kifakz.github.io/bible/stoliar/" class="no-underline">Тора для детей</a></b></button>
@@ -61,6 +61,30 @@ window.onclick = function (event) {
     <main>
         <div class="container">
             <div class="left-column">
+			<div id="quote">Загрузка...</div>
+<script>
+async function getRandomQuote() {
+    try {
+        const response = await fetch('css/quotes.txt'); // Загружаем файл
+		console.log(response);
+        const text = await response.text();
+        const quotes = text.split('\n').filter(q => q.trim() !== ''); // Разбиваем по строкам и удаляем пустые строки
+        
+        if (quotes.length > 0) {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            document.getElementById('quote').textContent = quotes[randomIndex];
+        } else {
+            document.getElementById('quote').textContent = '1';
+        }
+    } catch (error) {
+        console.error('Ошибка загрузки цитат:', error);
+        document.getElementById('quote').textContent = '2';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', getRandomQuote);
+
+ </script>
                 <h2>"Кифа" - на арамейском языке означает "камень".</h2>
                 <p>Раньше камень был указателем для путников. Указатель нужен был для тех, кто не знал местности, не знал куда дальше идти. Камень помогал людям сделать решение и первый шаг в нужном направлении.
 В Писании, в Торе, камень встречается многочисленное число раз: это и драгоценный камень на одежде священника, это и камень жертвенника. Это и памятник, это и основание дома. Камень ставили во свидетели какого-то события, и камнем Давид выиграл войну с фелистимлянами. Из камня Моше (Моисей) поил народ Израильский в пустыне, и камнями закидывали, исполняя смертный приговор. Камнем прикрывали вход в гробницы, и из камней был построен Второй Храм. На двух камнях-скрижалях Всевышний дал заповеди, и, символично, что раньше люди в дороге спотыкались о выступающие камни.</p>
@@ -103,9 +127,6 @@ window.onclick = function (event) {
     <li><a href="https://toldot.ru/urava/jdate/" target="_blank"><img src="https://www.calend.ru/img/export/informer_4.png" width="150" alt="Еврейские праздники" border="0"></a></li>
   </ul>
 </div>
-
-
- 
 
     </footer>
 </body>

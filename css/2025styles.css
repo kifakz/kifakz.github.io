@@ -344,3 +344,16 @@ audio::-webkit-media-controls-play-button {
         width: 100%;  /* Растягиваем на всю ширину */
     }
 }
+#quote {
+    background-color: #FFD700; /* Жёлтый фон */
+    color: #000; /* Чёрный текст */
+    padding: 10px 15px; /* Отступы вокруг текста */
+    border-radius: 8px; /* Скруглённые углы */
+    font-family: 'Playfair Display', serif; /* Твой основной шрифт */
+    font-size: 18px; /* Размер шрифта */
+    font-weight: bold; /* Жирный текст */
+    text-align: left; /* Выравнивание по левому краю */
+    max-width: 500px; /* Максимальная ширина блока */
+    margin: 10px auto; /* Центрирование на странице */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Лёгкая тень */
+}

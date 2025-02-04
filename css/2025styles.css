@@ -344,3 +344,13 @@ audio::-webkit-media-controls-play-button {
         width: 100%;  /* Растягиваем на всю ширину */
     }
 }
+#quote {
+    text-align: left; /* Выравнивание по левому краю */
+    font-family: "Georgia", serif; /* Красивый шрифт */
+    font-size: 20px; /* Размер шрифта */
+    font-weight: bold; /* Жирный текст */
+    color: #333; /* Цвет текста (темно-серый) */
+    padding: 10px; /* Отступы вокруг */
+    max-width: 600px; /* Максимальная ширина */
+    line-height: 1.5; /* Межстрочный интервал */
+}

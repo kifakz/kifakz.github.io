@@ -104,7 +104,10 @@ window.onclick = function (event) {
   </ul>
 </div>
 
-    </footer>
+    <div class="dropdown dropdown-up">
+  <button onclick="toggleDropdown(this)"><b>Случайная мысль</b></button>
+  <ul class="dropdown-menu">
+    <li>
 	<div id="quote">Загрузка...</div>
 <script>
 async function getRandomQuote() {
@@ -117,16 +120,22 @@ async function getRandomQuote() {
             const randomIndex = Math.floor(Math.random() * quotes.length);
             document.getElementById('quote').innerHTML = quotes[randomIndex];
         } else {
-            document.getElementById('quote').textContent = '1';
+            document.getElementById('quote').textContent = '';
         }
     } catch (error) {
         console.error('Ошибка загрузки цитат:', error);
-        document.getElementById('quote').textContent = '2';
+        document.getElementById('quote').textContent = '';
     }
 }
 
 document.addEventListener('DOMContentLoaded', getRandomQuote);
 
  </script>
+	</li>
+  </ul>
+</div>
+
+    </footer>
+	
 </body>
 </html>

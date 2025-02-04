@@ -6,7 +6,7 @@
     <title>kifakz.github.io</title>
     <meta name="description" content="Еврейский новый завет с комментариями Давида Стерна">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/2025styles.css?ver=1.018">
+    <link rel="stylesheet" href="../../css/2025styles.css?ver=1.021">
 </head>
 <body>
    <header>
@@ -121,8 +121,40 @@ window.onclick = function (event) {
         </div>
     </main>
 
-    <footer>
+ <footer>
 	
+<div class="dropdown dropdown-up">
+  <button onclick="toggleDropdown(this)"><b>Случайная мысль</b></button>
+  <ul class="dropdown-menu">
+    <li>
+      <div id="quote">Загрузка...</div>
+    </li>
+  </ul>
+</div>
+
+<script>
+async function getRandomQuote() {
+    try {
+        const response = await fetch('../../css/quotes.txt');
+        const text = await response.text();
+        const quotes = text.split('\n').filter(q => q.trim() !== '');
+        
+        if (quotes.length > 0) {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            document.getElementById('quote').innerHTML = quotes[randomIndex];
+        } else {
+            document.getElementById('quote').textContent = 'Нет цитат';
+        }
+    } catch (error) {
+        console.error('Ошибка загрузки цитат:', error);
+        document.getElementById('quote').textContent = 'Ошибка загрузки';
+    }
+}
+
+// Загружаем цитату при загрузке страницы
+document.addEventListener('DOMContentLoaded', getRandomQuote);
+</script>
+
     <div class="dropdown dropdown-up">
   <button onclick="toggleDropdown(this)"><b>Полезные каналы</b></button>
   <ul class="dropdown-menu">
@@ -138,10 +170,7 @@ window.onclick = function (event) {
     <li><a href="https://toldot.ru/urava/jdate/" target="_blank"><img src="https://www.calend.ru/img/export/informer_4.png" width="150" alt="Еврейские праздники" border="0"></a></li>
   </ul>
 </div>
-
-
- 
-
     </footer>
+	
 </body>
 </html>

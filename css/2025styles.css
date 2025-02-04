@@ -345,12 +345,12 @@ audio::-webkit-media-controls-play-button {
     }
 }
 #quote {
-    text-align: left; /* Выравнивание по левому краю */
+    text-align: right; /* Выравнивание по левому краю */
     font-family: "Georgia", serif; /* Красивый шрифт */
-    font-size: 20px; /* Размер шрифта */
+    font-size: 10px; /* Размер шрифта */
     font-weight: bold; /* Жирный текст */
     color: #333; /* Цвет текста (темно-серый) */
     padding: 10px; /* Отступы вокруг */
     max-width: 600px; /* Максимальная ширина */
-    line-height: 1.5; /* Межстрочный интервал */
+    line-height: 0.7; /* Межстрочный интервал */
 }

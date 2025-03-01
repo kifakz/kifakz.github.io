@@ -139,7 +139,7 @@ window.onclick = function (event) {
 
     async function getRandomQuote() {
         try {
-            const response = await fetch('css/quotes.txt'); // Загружаем файл с цитатами
+            const response = await fetch('../../css/quotes.txt'); // Загружаем файл с цитатами
             const text = await response.text();
             const quotes = text.split('\n').filter(q => q.trim() !== ''); 
             

@@ -124,7 +124,7 @@ window.onclick = function (event) {
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('radio.txt')
+    fetch('/radio.txt')
         .then(response => response.text())
         .then(url => {
             const audio = document.createElement('audio');

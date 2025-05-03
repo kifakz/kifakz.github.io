@@ -28,10 +28,7 @@
 		 <div class="dropdown">
 	<button onclick="toggleDropdown(this)"><b>Радио EL-HI</b></button>
   <ul class="dropdown-menu">
-    <li><audio controls="controls">
-<source src="https://a2.asurahosting.com:6760/radio.mp3" type="audio/mpeg" />
-Your browser does not support the audio element.
-</audio></li>
+    <li id="radioContainer">...</li>
   </ul>
 </div>
 
@@ -125,6 +122,26 @@ window.onclick = function (event) {
 </script>
 
 
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('radio.txt')
+        .then(response => response.text())
+        .then(url => {
+            const audio = document.createElement('audio');
+            audio.controls = true;
+            audio.src = url.trim();
+            audio.type = 'audio/mpeg';
+
+            const container = document.getElementById('radioContainer');
+            container.innerHTML = ''; // очищаем "Загрузка аудио..."
+            container.appendChild(audio);
+        })
+        .catch(error => {
+            console.error('Ошибка загрузки ссылки на радио:', error);
+            document.getElementById('radioContainer').textContent = 'Аудио недоступно';
+        });
+});
+</script>
 	
 </body>
 </html>

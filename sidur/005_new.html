@@ -308,6 +308,7 @@ hr {
 const prayerData = [
 
     {
+	info: "В пятницу вечером женщина при зажигании свечей произносит:",
         hb_structured: [
             {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
             {w: "אַתָּה", p: "Ата́", t: "Ты"},
@@ -317,11 +318,12 @@ const prayerData = [
             {w: "הָעוֹלָם", p: "а-ола́м", t: "Вселенной"}
         ],
         tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м",
-        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной"
+        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной",
 		hr: false
     },
 	
 {
+info: "Далее принято произносить или петь:",
         hb_structured: [
             {w: "אֲשֶׁר", p: "ашэ́р", t: "который"},
             {w: "קִדְּשָׁנוּ", p: "кидеша́ну", t: "освятил нас"},
@@ -333,7 +335,7 @@ const prayerData = [
             {w: "שַׁבָּת", p: "шаба́т", t: "субботы"}
         ],
         tr: "ашэ́р кидеша́ну бемицвота́в вецива́ну леадли́к нэр шэль шаба́т",
-        ru: "освятивший нас Своими заповедями и повелевший нам зажигать свечу в честь субботы"
+        ru: "освятивший нас Своими заповедями и повелевший нам зажигать свечу в честь субботы",
 		hr: true
     },
 	
@@ -343,11 +345,18 @@ const prayerData = [
 const contentDiv = document.getElementById('prayer-content');
 
 prayerData.forEach(item => {
-    // Создаем контейнер для строки
+    // 1. ПРОВЕРЯЕМ ПОЯСНЕНИЕ (info)
+    if (item.info) {
+        const infoBlock = document.createElement('div');
+        infoBlock.className = 'instruction-block';
+        infoBlock.innerHTML = `<p>${item.info}</p>`;
+        contentDiv.appendChild(infoBlock);
+    }
+
+    // 2. СОЗДАЕМ МОЛИТВУ
     const row = document.createElement('div');
     row.className = 'prayer-row';
     
-    // Собираем иврит
     let hebrewHTML = '';
     item.hb_structured.forEach(part => {
         hebrewHTML += `
@@ -360,20 +369,16 @@ prayerData.forEach(item => {
             </span> `;
     });
 
-    // Наполняем строку данными
     row.innerHTML = `
         <div class="hebrew">${hebrewHTML}</div>
         <div class="translit">${item.tr}</div>
         <div class="translation">${item.ru}</div>
     `;
-    
-    // Добавляем строку на страницу
     contentDiv.appendChild(row);
 
-    // ЕСЛИ В ДАННЫХ ЕСТЬ hr: true — ДОБАВЛЯЕМ ЛИНИЮ
-    if (item.hr === true) {
-        const line = document.createElement('hr');
-        contentDiv.appendChild(line);
+    // 3. ПРОВЕРЯЕМ РАЗДЕЛИТЕЛЬ (hr)
+    if (item.hr) {
+        contentDiv.appendChild(document.createElement('hr'));
     }
 });
 

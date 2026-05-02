@@ -92,10 +92,44 @@
 }
 
 /* Эффект при наведении на карточку */
-.prayer-row:hover {
-    background: rgba(255, 255, 255, 0.06);
-    border-color: rgba(211, 84, 0, 0.3); /* Оранжевое свечение рамки */
-    transform: translateY(-5px); /* Карточка чуть приподнимается */
+/* Базовый стиль карточки */
+.prayer-row { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    
+    /* Убираем нижние отступы по умолчанию */
+    margin: 0 auto; 
+    padding: 30px 25px; 
+    max-width: 850px;
+    transition: all 0.3s ease;
+}
+
+/* Если после карточки НЕТ разделителя (hr), значит она "склеивается" со следующей */
+.prayer-row:not(:last-child) {
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* Если перед карточкой стоит другая карточка (без инфо и без hr), убираем у неё верхние углы */
+.prayer-row + .prayer-row {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* А вот здесь мы делаем разрыв! */
+/* Если в данных был hr: true, мы добавим отступ ПОСЛЕ карточки */
+.spacer-hr {
+    height: 40px; /* Расстояние между группами подложек */
+    border: 0;
+    margin: 0;
+    display: block; /* Возвращаем видимость, но без линии */
 }
 
     .hebrew { 
@@ -341,7 +375,8 @@ const prayerData = [
             {w: "שַׁבָּת", p: "шаба́т", t: "субботы"}
         ],
         tr: "ашэ́р кидеша́ну бемицвота́в вецива́ну леадли́к нэр шэль шаба́т",
-        ru: "освятивший нас Своими заповедями и повелевший нам зажигать свечу в честь субботы"
+        ru: "освятивший нас Своими заповедями и повелевший нам зажигать свечу в честь субботы",
+		hr: true
     },
 	{
 		info: "Далее принято произносить или петь:",
@@ -438,7 +473,8 @@ const prayerData = [
             {w: "הוּא", p: "У", t: "Он"}
         ],
         tr: "ми-Мэ́лэх малхэ́й а-мелахи́м а-Кадо́ш бару́х У",
-        ru: "Царя царей, Святого, благословен Он."
+        ru: "Царя царей, Святого, благословен Он.",
+		hr: true
     }
 ];
 
@@ -477,6 +513,13 @@ prayerData.forEach(item => {
     contentDiv.appendChild(row);
 
 });
+
+// 3. ПРОВЕРЯЕМ РАЗДЕЛИТЕЛЬ (hr)
+    if (item.hr) {
+        const spacer = document.createElement('div');
+        spacer.className = 'spacer-hr'; // Создаем пустой блок для разрыва
+        contentDiv.appendChild(spacer);
+    }
 
     // 2. ЛОГИКА МЕНЮ
     function toggleDropdown(button) {

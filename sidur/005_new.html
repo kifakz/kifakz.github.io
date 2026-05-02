@@ -76,60 +76,39 @@
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
-    
-    /* Стили подложки */
-    background: rgba(255, 255, 255, 0.03); /* Почти прозрачный белый */
-    backdrop-filter: blur(5px); /* Эффект размытия фона за карточкой */
-    border: 1px solid rgba(255, 255, 255, 0.05); /* Еле заметная рамка */
-    border-radius: 20px; /* Закругленные углы */
-    
-    margin: 20px auto 40px; /* Отступы между карточками */
-    padding: 35px 25px; 
-    max-width: 850px;
-    
-    transition: all 0.3s ease; /* Плавная анимация */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Глубокая тень */
-}
-
-/* Эффект при наведении на карточку */
-/* Базовый стиль карточки */
-.prayer-row { 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
     background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    
+    /* Делаем рамку очень тонкой и полупрозрачной */
+    border: 1px solid rgba(255, 255, 255, 0.08); 
     border-radius: 20px;
     
-    /* Убираем нижние отступы по умолчанию */
     margin: 0 auto; 
     padding: 30px 25px; 
     max-width: 850px;
-    transition: all 0.3s ease;
+    position: relative; /* Для правильного наложения */
 }
 
-/* Если после карточки НЕТ разделителя (hr), значит она "склеивается" со следующей */
+/* Убираем нижнее скругление и нижнюю рамку у промежуточных блоков */
 .prayer-row:not(:last-child) {
     border-bottom: none;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    margin-bottom: 0; /* Убираем любой зазор */
 }
 
-/* Если перед карточкой стоит другая карточка (без инфо и без hr), убираем у неё верхние углы */
+/* Убираем верхнее скругление у блоков, идущих следом */
 .prayer-row + .prayer-row {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    margin-top: -1px; /* Сдвигаем на 1 пиксель вверх, чтобы рамки слились */
 }
 
-/* А вот здесь мы делаем разрыв! */
-/* Если в данных был hr: true, мы добавим отступ ПОСЛЕ карточки */
+/* Блок-разрыв (когда hr: true) */
 .spacer-hr {
-    height: 40px; /* Расстояние между группами подложек */
-    border: 0;
-    margin: 0;
-    display: block; /* Возвращаем видимость, но без линии */
+    height: 40px; 
+    display: block;
+    clear: both;
 }
 
     .hebrew { 

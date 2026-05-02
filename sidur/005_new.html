@@ -7,14 +7,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Assistant:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/2025styles.css?ver=1.021">
     
-    <style>
-        .prayer-container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
-        .prayer-row { display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: 50px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
-        .hebrew { font-family: 'Assistant', sans-serif; font-size: 2.8rem; color: #2c3e50; direction: rtl; line-height: 1.4; }
-        .translit { font-size: 1.25rem; color: #d35400; font-weight: bold; margin: 10px 0; }
-        .translation { font-size: 1.1rem; color: #7f8c8d; font-family: 'Playfair Display', serif; font-style: italic; }
-        .section-title { text-align: center; color: #34495e; margin-bottom: 40px; font-family: 'Playfair Display', serif; }
-    </style>
 </head>
 <body class="main-page">
 
@@ -39,9 +31,81 @@
     </div>
 </header>
 
+<style>
+    /* Основные настройки контейнера */
+    .prayer-container { 
+        max-width: 900px; 
+        margin: 40px auto; 
+        padding: 0 20px; 
+        color: white; /* Весь текст по умолчанию светлый */
+    }
+
+    /* Стили для пояснительного текста (инструкций) */
+    .instruction-block {
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.05); /* Легкий фон-подложка */
+        border-radius: 8px;
+        border-left: 4px solid #d35400;
+    }
+    .instruction-block h3 { color: #d35400; margin-top: 0; }
+    .instruction-block p { font-style: italic; color: #bdc3c7; }
+
+    /* Стили для строк молитвы */
+    .prayer-row { 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+        margin-bottom: 50px; 
+        padding-bottom: 25px; 
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+    }
+
+    /* Иврит — делаем его величественным */
+    .hebrew { 
+        font-family: 'Assistant', sans-serif; 
+        font-size: 3.5rem; /* Крупнее */
+        color: #ffffff; 
+        direction: rtl; 
+        line-height: 1.2;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Чтобы буквы "объемились" */
+    }
+
+    /* Транслитерация — оставляем твой любимый оранжевый */
+    .translit { 
+        font-size: 1.4rem; 
+        color: #ff851b; /* Более яркий оранжевый для черного фона */
+        font-weight: bold; 
+        margin: 15px 0 5px 0;
+        letter-spacing: 0.5px;
+    }
+
+    /* Перевод — делаем читаемым, но второстепенным */
+    .translation { 
+        font-size: 1.2rem; 
+        color: #ecf0f1; 
+        font-family: 'Playfair Display', serif; 
+        max-width: 80%;
+    }
+
+    .section-title { 
+        text-align: center; 
+        color: #d35400; 
+        margin-bottom: 10px; 
+        font-family: 'Playfair Display', serif; 
+        font-size: 2rem;
+    }
+</style>
+
 <main>
     <div class="prayer-container">
-        <h2 class="section-title">Встреча Субботы (Шалом Алейхем)</h2>
+        <div class="instruction-block">
+            <h2 class="section-title">Начало субботы</h2>
+            <p>В пятницу вечером женщина при зажигании свечей произносит:</p>
+        </div>
+
         <div id="prayer-content"></div>
     </div>
 </main>
@@ -50,16 +114,16 @@
 
 <script>
     // 1. ДАННЫЕ МОЛИТВЫ
-    const prayerData = [
+const prayerData = [
         {
-            hb: "שָׁלוֹם עֲלֵיכֶם מַלְאֲכֵי הַשָּׁרֵת מַלְאֲכֵי עֶלְיוֹן",
-            tr: "Шало́м алэ́хэм малахэ́й ашарэ́т малахэ́й Эльо́н",
-            ru: "Мир вам, ангелы-служители, ангелы Всевышнего"
+            hb: "בָּרוּךְ אַתָּה ה' אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם",
+            tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м",
+            ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной"
         },
         {
-            hb: "מִמֶּלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּа",
-            tr: "ми-Мэ́лэх малхэ́й аме́лахим аКадо́ш бару́х у",
-            ru: "Царя царей, Святого, благословен Он"
+            hb: "אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ לְהַדְלִיק נֵר שֶׁל שַׁבָּת",
+            tr: "ашэ́р кидеша́ну бемицвота́в вецива́ну леадли́к нэр шэль шаба́т",
+            ru: "освятивший нас Своими заповедями и повелевший нам зажигать свечу в честь субботы"
         }
     ];
 

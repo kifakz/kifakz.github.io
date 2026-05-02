@@ -94,10 +94,67 @@
         font-family: 'Playfair Display', serif; 
         font-size: 2rem;
     }
+	/* Стили для выбора молитв */
+.prayer-navigation {
+    margin: 20px auto 40px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav-title {
+    font-family: 'Playfair Display', serif;
+    color: #bdc3c7;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    background: rgba(211, 84, 0, 0.1); /* Прозрачный оранжевый */
+    border: 1px solid rgba(211, 84, 0, 0.3);
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background: #d35400;
+    color: white;
+    border-color: #d35400;
+}
 </style>
 
 <main>
     <div class="prayer-container">
+        <nav class="prayer-navigation">
+            <span class="nav-title">Выбрать молитву из сидура:</span>
+            <div class="nav-links">
+                <a href="001.html">Шахарит</a>
+                <a href="002.html">Минха</a>
+                <a href="003.html">Арвит</a>
+                <a href="004.html">Утренние благословения</a>
+                <a href="005_new.html">Суббота</a>
+                <a href="006.html">Шма Исраэль</a>
+                <a href="007.html">Адон Олам</a>
+                <a href="008.html">Шмонэ-Эсрэ</a>
+            </div>
+        </nav>
+
         <div class="instruction-block">
             <h2 class="section-title">Начало субботы</h2>
             <p>В пятницу вечером женщина при зажигании свечей произносит:</p>

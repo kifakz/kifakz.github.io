@@ -41,16 +41,31 @@
     }
 
     /* Стили для пояснительного текста (инструкций) */
-    .instruction-block {
-        text-align: center;
-        margin-bottom: 40px;
-        padding: 20px;
-        background: rgba(255, 255, 255, 0.05); /* Легкий фон-подложка */
-        border-radius: 8px;
-        border-left: 4px solid #d35400;
-    }
-    .instruction-block h3 { color: #d35400; margin-top: 0; }
-    .instruction-block p { font-style: italic; color: #bdc3c7; }
+  .instruction-block {
+    text-align: center;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background: rgba(211, 84, 0, 0.07); /* Совсем легкий оранжевый оттенок фона */
+    border-radius: 12px;
+    border: 1px solid rgba(211, 84, 0, 0.2); /* Тонкая рамка вместо одной полосы слева */
+    max-width: 800px;
+}
+
+.instruction-block p { 
+    font-style: normal; /* Убираем курсив */
+    color: #e0e0e0;     /* Делаем текст почти белым для контраста */
+    font-size: 1.2rem;  /* Увеличиваем размер */
+    line-height: 1.6;   /* Увеличиваем межстрочный интервал */
+    margin: 0;
+}
+
+/* Название заголовка внутри инструкции (если используешь h2 или h3) */
+.instruction-block .section-title {
+    color: #ff851b;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
 
     /* Стили для строк молитвы */
     .prayer-row { 
@@ -137,23 +152,63 @@
     color: white;
     border-color: #d35400;
 }
+
+/* Компактный переключатель молитв */
+.prayer-selector {
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+
+.custom-select {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 10px 20px;
+    border: 1px solid #d35400;
+    border-radius: 25px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    appearance: none; /* Убираем стандартную стрелку браузера */
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d35400' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 15px;
+    padding-right: 40px;
+    transition: all 0.3s ease;
+}
+
+.custom-select:hover {
+    border-color: #ff851b;
+    box-shadow: 0 0 10px rgba(211, 84, 0, 0.3);
+}
 </style>
 
 <main>
     <div class="prayer-container">
-        <nav class="prayer-navigation">
-            <span class="nav-title">Выбрать молитву из сидура:</span>
-            <div class="nav-links">
-                <a href="001.html">Шахарит</a>
-                <a href="002.html">Минха</a>
-                <a href="003.html">Арвит</a>
-                <a href="004.html">Утренние благословения</a>
-                <a href="005_new.html">Суббота</a>
-                <a href="006.html">Шма Исраэль</a>
-                <a href="007.html">Адон Олам</a>
-                <a href="008.html">Шмонэ-Эсрэ</a>
-            </div>
-        </nav>
+ <div class="prayer-selector">
+    <select class="custom-select" onchange="window.location.href=this.value">
+        <option value="" disabled selected>Выбрать молитву...</option>
+        <option value="016.html">Шахарит (утренняя составная)</option>
+		<option value="014.html">Минха (дневная будничная)</option>
+		<option value="009.html">Арвит (вечерняя составная)</option>
+		<option value="001.html">Утренние благословения</option>
+		<option value="002.html">Шма Исраэль</option>
+		<option value="003.html">Адон олам</option>
+		<option value="004.html">Шмонэ-Эсрэ</option>
+		<option value="005.html">Суббота</option>
+		<option value="006.html">Кадиш раввинов</option>
+		<option value="007.html">Благословение вызванного к Торе</option>
+		<option value="008.html">Ашрэй</option>
+		<option value="010.html">Алэну лешабэах</option>
+		<option value="011.html">Кадиш скорбящего</option>
+		<option value="012.html">После трапезы с хлебом</option>
+		<option value="013.html">Ханукальные свечи</option>
+		<option value="015.html">Обручение и женитьба</option>
+		<option value="017.html">Обрезание (брит мила)</option>
+    </select>
+</div>
 
         <div class="instruction-block">
             <h2 class="section-title">Начало субботы</h2>

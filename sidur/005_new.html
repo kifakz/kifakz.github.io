@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шабат — Сидур онлайн</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Assistant:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/2025styles.css?ver=1.021">
+    
+    <style>
+        /* Дополнительные стили специально для молитв */
+        .prayer-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .prayer-row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .hebrew {
+            font-family: 'Assistant', sans-serif;
+            font-size: 2.8rem;
+            color: #2c3e50;
+            direction: rtl;
+            line-height: 1.4;
+        }
+        .translit {
+            font-size: 1.25rem;
+            color: #d35400; /* Твой оранжево-красный акцент */
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .translation {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+        }
+        .section-title {
+            text-align: center;
+            color: #34495e;
+            margin-bottom: 40px;
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="main-page">
+
+    <header>
+        <div class="dropdown">
+            <button><b><a href="/" class="no-underline">Главная</a></b></button>
+        </div>
+        <div class="dropdown">
+            <button><b><a href="/sidur/index.html" class="no-underline">Сидур</a></b></button>
+        </div>
+        </header>
+
+    <main>
+        <div class="prayer-container">
+            <h2 class="section-title">Встреча Субботы (Шалом Алейхем)</h2>
+            
+            <div id="prayer-content">
+                </div>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script>
+        // ДАННЫЕ МОЛИТВЫ
+        const prayerData = [
+            {
+                hb: "שָׁלוֹם עֲלֵיכֶם מַלְאֲכֵי הַשָּׁרֵת מַלְאֲכֵי עֶלְיוֹן",
+                tr: "Шало́м алэ́хэм малахэ́й ашарэ́т малахэ́й Эльо́н",
+                ru: "Мир вам, ангелы-служители, ангелы Всевышнего"
+            },
+            {
+                hb: "מִמֶּלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא",
+                tr: "ми-Мэ́лэх малхэ́й аме́лахим аКадо́ш бару́х у",
+                ru: "Царя царей, Святого, благословен Он"
+            }
+        ];
+
+        // ГЕНЕРАТОР КОНТЕНТА
+        const contentDiv = document.getElementById('prayer-content');
+        prayerData.forEach(item => {
+            const row = document.createElement('div');
+            row.className = 'prayer-row';
+            row.innerHTML = `
+                <div class="hebrew">${item.hb}</div>
+                <div class="translit">${item.tr}</div>
+                <div class="translation">${item.ru}</div>
+            `;
+            contentDiv.appendChild(row);
+        });
+
+        // ЗАГРУЗКА ФУТЕРА (логика из твоего main.html)
+        async function loadFooter() {
+            try {
+                const response = await fetch('../footer.html'); 
+                const footerHTML = await response.text();
+                document.getElementById('footer-container').innerHTML = footerHTML;
+                if (typeof getRandomQuote === 'function') getRandomQuote();
+            } catch (error) {
+                console.error('Ошибка загрузки футера:', error);
+            }
+        }
+        document.addEventListener('DOMContentLoaded', loadFooter);
+    </script>
+</body>
+</html>

@@ -80,7 +80,7 @@
 
     .hebrew { 
         font-family: 'Assistant', sans-serif; 
-        font-size: 1.5rem;
+        font-size: 2.1rem;
         color: #ffffff; 
         direction: rtl; 
         line-height: 1.2;
@@ -88,7 +88,7 @@
     }
 
     .translit { 
-        font-size: 1.4rem; 
+        font-size: 1.3rem; 
         color: #ff851b; /* Более яркий оранжевый для черного фона */
         font-weight: bold; 
         margin: 15px 0 5px 0;
@@ -183,6 +183,44 @@
     border-color: #ff851b;
     box-shadow: 0 0 10px rgba(211, 84, 0, 0.3);
 }
+/* Стиль для слов, которые можно перевести */
+.hb-word {
+    cursor: help;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+    transition: all 0.2s;
+    position: relative;
+    display: inline-block;
+}
+
+.hb-word:hover {
+    background: rgba(211, 84, 0, 0.2);
+    border-bottom: 1px solid #ff851b;
+}
+
+/* Всплывающая подсказка (Tooltip) */
+.hb-word::after {
+    content: attr(data-translation); /* Берет текст из атрибута */
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #d35400;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-family: 'Segoe UI', sans-serif;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s;
+    z-index: 10;
+}
+
+.hb-word:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
 </style>
 
 <main>
@@ -224,25 +262,40 @@
 <script>
     // 1. ДАННЫЕ МОЛИТВЫ
 const prayerData = [
-        {
-            hb: "בָּרוּךְ אַתָּה ה' אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם",
-            tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м",
-            ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной"
-        },
-        {
-            hb: "אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ לְהַדְלִיק נֵר שֶׁל שַׁבָּת",
-            tr: "ашэ́р кидеша́ну бемицвота́в вецива́ну леадли́к нэр шэль шаба́т",
-            ru: "освятивший нас Своими заповедями и повелевший нам зажигать свечу в честь субботы"
-        }
-    ];
+    {
+        // Вместо просто строки делаем массив объектов для обучения
+        hb_structured: [
+            {word: "בָּרוּךְ", trans: "Благословен"},
+            {word: "אַתָּה", trans: "Ты"},
+            {word: "ה'", trans: "Г-сподь (Имя)"},
+            {word: "אֱלֹהֵינוּ", trans: "Б-г наш"},
+            {word: "מֶלֶךְ", trans: "Царь"},
+            {word: "הָעוֹלָם", trans: "Вселенной"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м",
+        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной"
+    }
+];
 
-    const contentDiv = document.getElementById('prayer-content');
-    prayerData.forEach(item => {
-        const row = document.createElement('div');
-        row.className = 'prayer-row';
-        row.innerHTML = `<div class="hebrew">${item.hb}</div><div class="translit">${item.tr}</div><div class="translation">${item.ru}</div>`;
-        contentDiv.appendChild(row);
+// Обновляем функцию отрисовки
+const contentDiv = document.getElementById('prayer-content');
+prayerData.forEach(item => {
+    const row = document.createElement('div');
+    row.className = 'prayer-row';
+    
+    // Собираем иврит из кусочков с подсказками
+    let hebrewHTML = '';
+    item.hb_structured.forEach(part => {
+        hebrewHTML += `<span class="hb-word" data-translation="${part.trans}">${part.word}</span> `;
     });
+
+    row.innerHTML = `
+        <div class="hebrew">${hebrewHTML}</div>
+        <div class="translit">${item.tr}</div>
+        <div class="translation">${item.ru}</div>
+    `;
+    contentDiv.appendChild(row);
+});
 
     // 2. ЛОГИКА МЕНЮ
     function toggleDropdown(button) {

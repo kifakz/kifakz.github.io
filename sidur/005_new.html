@@ -184,42 +184,76 @@
     box-shadow: 0 0 10px rgba(211, 84, 0, 0.3);
 }
 /* Стиль для слов, которые можно перевести */
+/* Базовое слово */
 .hb-word {
     cursor: help;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+    border-bottom: 2px dotted rgba(211, 84, 0, 0.5);
     transition: all 0.2s;
     position: relative;
     display: inline-block;
+    padding: 0 2px;
 }
 
 .hb-word:hover {
-    background: rgba(211, 84, 0, 0.2);
-    border-bottom: 1px solid #ff851b;
+    background: rgba(211, 84, 0, 0.15);
+    border-bottom: 2px solid #ff851b;
+    border-radius: 4px;
 }
 
-/* Всплывающая подсказка (Tooltip) */
-.hb-word::after {
-    content: attr(data-translation); /* Берет текст из атрибута */
+/* Контейнер подсказки */
+.hb-word .tooltip {
     position: absolute;
-    bottom: 110%;
+    bottom: 125%;
     left: 50%;
     transform: translateX(-50%);
-    background: #d35400;
+    background: #2c3e50; /* Темный фон, чтобы выделялся */
+    border: 1px solid #d35400;
     color: white;
-    padding: 5px 10px;
-    border-radius: 4px;
-    font-size: 0.9rem;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.95rem;
     font-family: 'Segoe UI', sans-serif;
     white-space: nowrap;
+    text-align: center;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s;
-    z-index: 10;
+    transition: all 0.3s ease;
+    z-index: 100;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
 }
 
-.hb-word:hover::after {
+/* Треугольничек внизу подсказки */
+.hb-word .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #d35400 transparent transparent transparent;
+}
+
+.hb-word:hover .tooltip {
     opacity: 1;
     visibility: visible;
+    bottom: 140%;
+}
+
+/* Стили внутри подсказки */
+.tooltip-translit {
+    color: #ff851b; /* Оранжевый для произношения */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 4px;
+}
+
+.tooltip-translation {
+    color: #ecf0f1; /* Белый для перевода */
+    display: block;
+    font-style: italic;
 }
 </style>
 
@@ -263,30 +297,34 @@
     // 1. ДАННЫЕ МОЛИТВЫ
 const prayerData = [
     {
-        // Вместо просто строки делаем массив объектов для обучения
         hb_structured: [
-            {word: "בָּרוּךְ", trans: "Благословен"},
-            {word: "אַתָּה", trans: "Ты"},
-            {word: "ה'", trans: "Г-сподь (Имя)"},
-            {word: "אֱלֹהֵינוּ", trans: "Б-г наш"},
-            {word: "מֶלֶךְ", trans: "Царь"},
-            {word: "הָעוֹלָם", trans: "Вселенной"}
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "ה'", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֱלֹהֵינוּ", p: "Элоэ́ну", t: "Б-г наш"},
+            {w: "מֶלֶךְ", p: "Мэ́лэх", t: "Царь"},
+            {w: "הָעוֹלָם", p: "а-ола́м", t: "Вселенной"}
         ],
         tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м",
         ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной"
     }
 ];
 
-// Обновляем функцию отрисовки
 const contentDiv = document.getElementById('prayer-content');
 prayerData.forEach(item => {
     const row = document.createElement('div');
     row.className = 'prayer-row';
     
-    // Собираем иврит из кусочков с подсказками
     let hebrewHTML = '';
     item.hb_structured.forEach(part => {
-        hebrewHTML += `<span class="hb-word" data-translation="${part.trans}">${part.word}</span> `;
+        hebrewHTML += `
+            <span class="hb-word">
+                ${part.w}
+                <span class="tooltip">
+                    <span class="tooltip-translit">${part.p}</span>
+                    <span class="tooltip-translation">${part.t}</span>
+                </span>
+            </span> `;
     });
 
     row.innerHTML = `

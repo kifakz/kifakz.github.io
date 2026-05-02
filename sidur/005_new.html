@@ -8,110 +8,117 @@
     <link rel="stylesheet" href="../css/2025styles.css?ver=1.021">
     
     <style>
-        /* Дополнительные стили специально для молитв */
-        .prayer-container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-        .prayer-row {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin-bottom: 50px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eee;
-        }
-        .hebrew {
-            font-family: 'Assistant', sans-serif;
-            font-size: 2.8rem;
-            color: #2c3e50;
-            direction: rtl;
-            line-height: 1.4;
-        }
-        .translit {
-            font-size: 1.25rem;
-            color: #d35400; /* Твой оранжево-красный акцент */
-            font-weight: bold;
-            margin: 10px 0;
-        }
-        .translation {
-            font-size: 1.1rem;
-            color: #7f8c8d;
-            font-family: 'Playfair Display', serif;
-            font-style: italic;
-        }
-        .section-title {
-            text-align: center;
-            color: #34495e;
-            margin-bottom: 40px;
-            font-family: 'Playfair Display', serif;
-        }
+        .prayer-container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        .prayer-row { display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: 50px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+        .hebrew { font-family: 'Assistant', sans-serif; font-size: 2.8rem; color: #2c3e50; direction: rtl; line-height: 1.4; }
+        .translit { font-size: 1.25rem; color: #d35400; font-weight: bold; margin: 10px 0; }
+        .translation { font-size: 1.1rem; color: #7f8c8d; font-family: 'Playfair Display', serif; font-style: italic; }
+        .section-title { text-align: center; color: #34495e; margin-bottom: 40px; font-family: 'Playfair Display', serif; }
     </style>
 </head>
 <body class="main-page">
 
-    <header>
-        <div class="dropdown">
-            <button><b><a href="/" class="no-underline">Главная</a></b></button>
-        </div>
-        <div class="dropdown">
-            <button><b><a href="/sidur/index.html" class="no-underline">Сидур</a></b></button>
-        </div>
-        </header>
+<header>
+    <div class="dropdown">
+        <button><b><a href="https://kifakz.github.io/" class="no-underline">Главная</a></b></button>
+    </div>
+    <div class="dropdown">
+        <button onclick="toggleDropdown(this)"><b><a href="https://kifakz.github.io/bible/stoliar/" class="no-underline">Тора для детей</a></b></button>
+    </div>
+    <div class="dropdown">
+        <button onclick="toggleDropdown(this)"><b><a href="https://kifakz.github.io/bible/stern/index.html" class="no-underline">Еврейский Новый Завет</a></b></button>
+    </div>
+    <div class="dropdown">
+        <button onclick="toggleDropdown(this)"><b><a href="https://kifakz.github.io/sidur/index.html" class="no-underline">Сидур</a></b></button>
+    </div>
+    <div class="dropdown">
+        <button onclick="toggleDropdown(this)"><b>Радио EL-HI</b></button>
+        <ul class="dropdown-menu">
+            <li id="radioContainer">Загрузка...</li>
+        </ul>
+    </div>
+</header>
 
-    <main>
-        <div class="prayer-container">
-            <h2 class="section-title">Встреча Субботы (Шалом Алейхем)</h2>
-            
-            <div id="prayer-content">
-                </div>
-        </div>
-    </main>
+<main>
+    <div class="prayer-container">
+        <h2 class="section-title">Встреча Субботы (Шалом Алейхем)</h2>
+        <div id="prayer-content"></div>
+    </div>
+</main>
 
-    <div id="footer-container"></div>
+<div id="footer-container"></div>
 
-    <script>
-        // ДАННЫЕ МОЛИТВЫ
-        const prayerData = [
-            {
-                hb: "שָׁלוֹם עֲלֵיכֶם מַלְאֲכֵי הַשָּׁרֵת מַלְאֲכֵי עֶלְיוֹן",
-                tr: "Шало́м алэ́хэм малахэ́й ашарэ́т малахэ́й Эльо́н",
-                ru: "Мир вам, ангелы-служители, ангелы Всевышнего"
-            },
-            {
-                hb: "מִמֶּלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא",
-                tr: "ми-Мэ́лэх малхэ́й аме́лахим аКадо́ш бару́х у",
-                ru: "Царя царей, Святого, благословен Он"
-            }
-        ];
-
-        // ГЕНЕРАТОР КОНТЕНТА
-        const contentDiv = document.getElementById('prayer-content');
-        prayerData.forEach(item => {
-            const row = document.createElement('div');
-            row.className = 'prayer-row';
-            row.innerHTML = `
-                <div class="hebrew">${item.hb}</div>
-                <div class="translit">${item.tr}</div>
-                <div class="translation">${item.ru}</div>
-            `;
-            contentDiv.appendChild(row);
-        });
-
-        // ЗАГРУЗКА ФУТЕРА (логика из твоего main.html)
-        async function loadFooter() {
-            try {
-                const response = await fetch('../footer.html'); 
-                const footerHTML = await response.text();
-                document.getElementById('footer-container').innerHTML = footerHTML;
-                if (typeof getRandomQuote === 'function') getRandomQuote();
-            } catch (error) {
-                console.error('Ошибка загрузки футера:', error);
-            }
+<script>
+    // 1. ДАННЫЕ МОЛИТВЫ
+    const prayerData = [
+        {
+            hb: "שָׁלוֹם עֲלֵיכֶם מַלְאֲכֵי הַשָּׁרֵת מַלְאֲכֵי עֶלְיוֹן",
+            tr: "Шало́м алэ́хэм малахэ́й ашарэ́т малахэ́й Эльо́н",
+            ru: "Мир вам, ангелы-служители, ангелы Всевышнего"
+        },
+        {
+            hb: "מִמֶּלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּа",
+            tr: "ми-Мэ́лэх малхэ́й аме́лахим аКадо́ш бару́х у",
+            ru: "Царя царей, Святого, благословен Он"
         }
-        document.addEventListener('DOMContentLoaded', loadFooter);
-    </script>
+    ];
+
+    const contentDiv = document.getElementById('prayer-content');
+    prayerData.forEach(item => {
+        const row = document.createElement('div');
+        row.className = 'prayer-row';
+        row.innerHTML = `<div class="hebrew">${item.hb}</div><div class="translit">${item.tr}</div><div class="translation">${item.ru}</div>`;
+        contentDiv.appendChild(row);
+    });
+
+    // 2. ЛОГИКА МЕНЮ
+    function toggleDropdown(button) {
+        let dropdown = button.nextElementSibling;
+        document.querySelectorAll(".dropdown-menu").forEach(menu => {
+            if (menu !== dropdown) menu.classList.remove("show");
+        });
+        if(dropdown) dropdown.classList.toggle("show");
+    }
+
+    // 3. ЗАГРУЗКА ФУТЕРА И ЦИТАТ (пути ведут на уровень выше ../)
+    async function loadFooter() {
+        try {
+            const response = await fetch('../footer.html');
+            document.getElementById('footer-container').innerHTML = await response.text();
+            getRandomQuote();
+        } catch (e) { console.error('Ошибка футера:', e); }
+    }
+
+    async function getRandomQuote() {
+        try {
+            const response = await fetch('../css/quotes.txt');
+            const text = await response.text();
+            const quotes = text.split('\n').filter(q => q.trim() !== '');
+            if (quotes.length > 0) {
+                const randomIndex = Math.floor(Math.random() * quotes.length);
+                document.getElementById('quote').innerHTML = quotes[randomIndex];
+            }
+        } catch (e) { console.error('Ошибка цитат:', e); }
+    }
+
+    // 4. РАДИО
+    function loadRadio() {
+        fetch('../radio.txt')
+            .then(r => r.text())
+            .then(url => {
+                const audio = document.createElement('audio');
+                audio.controls = true;
+                audio.src = url.trim();
+                const container = document.getElementById('radioContainer');
+                container.innerHTML = '';
+                container.appendChild(audio);
+            });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        loadFooter();
+        loadRadio();
+    });
+</script>
 </body>
 </html>

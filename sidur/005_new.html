@@ -86,7 +86,6 @@ hr {
     background: rgba(255, 255, 255, 0.1);
     max-width: 80%;
     margin: 40px auto;
-}
     }
 
     .hebrew { 
@@ -295,7 +294,7 @@ hr {
 
         <div class="instruction-block">
             <h2 class="section-title">Начало субботы</h2>
-            <p>В пятницу вечером женщина при зажигании свечей произносит:</p>
+
         </div>
 
         <div id="prayer-content"></div>
@@ -307,6 +306,7 @@ hr {
 <script>
     // 1. ДАННЫЕ МОЛИТВЫ
 const prayerData = [
+
     {
         hb_structured: [
             {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
@@ -318,6 +318,7 @@ const prayerData = [
         ],
         tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м",
         ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной"
+		hr: false
     },
 	
 {
@@ -333,14 +334,20 @@ const prayerData = [
         ],
         tr: "ашэ́р кидеша́ну бемицвота́в вецива́ну леадли́к нэр шэль шаба́т",
         ru: "освятивший нас Своими заповедями и повелевший нам зажигать свечу в честь субботы"
-    }
+		hr: true
+    },
+	
+	
 ];
 
 const contentDiv = document.getElementById('prayer-content');
+
 prayerData.forEach(item => {
+    // Создаем контейнер для строки
     const row = document.createElement('div');
     row.className = 'prayer-row';
     
+    // Собираем иврит
     let hebrewHTML = '';
     item.hb_structured.forEach(part => {
         hebrewHTML += `
@@ -353,12 +360,21 @@ prayerData.forEach(item => {
             </span> `;
     });
 
+    // Наполняем строку данными
     row.innerHTML = `
         <div class="hebrew">${hebrewHTML}</div>
         <div class="translit">${item.tr}</div>
         <div class="translation">${item.ru}</div>
     `;
+    
+    // Добавляем строку на страницу
     contentDiv.appendChild(row);
+
+    // ЕСЛИ В ДАННЫХ ЕСТЬ hr: true — ДОБАВЛЯЕМ ЛИНИЮ
+    if (item.hr === true) {
+        const line = document.createElement('hr');
+        contentDiv.appendChild(line);
+    }
 });
 
     // 2. ЛОГИКА МЕНЮ

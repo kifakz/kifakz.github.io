@@ -1,479 +1,1131 @@
 <!DOCTYPE html>
-<html lang="ru" class="no-js">
-    <!-- BEGIN HEAD -->
-    <head>
-        <meta charset="utf-8"/>
-		<title>Шабат, сидур онлайн, сборник еврейских молитв для произношения с транслитерацией на русском языке с ударениями</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta name="Description" content="сидур онлайн, сборник еврейских молитв для произношения с транслитерацией на русском языке" />
-<meta name="Keywords" content="Шабат, молитвы, сборник, сидур, транслитерация, иврит, иудаизм" />
-  <!-- GLOBAL MANDATORY STYLES -->
-       
-        <link href="https://kifakz.github.io/vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
-        <link href="https://kifakz.github.io/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шабат — Сидур онлайн</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Assistant:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/2025styles.css?ver=1.021">
+	<link rel="stylesheet" href="style_prayer.css">
+    
+</head>
+<body class="main-page">
 
-        <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="https://kifakz.github.io/css/animate.css" rel="stylesheet">
-        <link href="https://kifakz.github.io/vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+<header>
+    <div class="dropdown">
+        <button><b><a href="https://kifakz.github.io/" class="no-underline">Главная</a></b></button>
+    </div>
+    <div class="dropdown">
+        <button onclick="toggleDropdown(this)"><b><a href="https://kifakz.github.io/bible/stoliar/" class="no-underline">Тора для детей</a></b></button>
+    </div>
+    <div class="dropdown">
+        <button onclick="toggleDropdown(this)"><b><a href="https://kifakz.github.io/bible/stern/index.html" class="no-underline">Еврейский Новый Завет</a></b></button>
+    </div>
+    <div class="dropdown">
+        <button onclick="toggleDropdown(this)"><b><a href="https://kifakz.github.io/sidur/index.html" class="no-underline">Сидур</a></b></button>
+    </div>
+    <div class="dropdown">
+        <button onclick="toggleDropdown(this)"><b>Радио EL-HI</b></button>
+        <ul class="dropdown-menu">
+            <li id="radioContainer">Загрузка...</li>
+        </ul>
+    </div>
+</header>
 
-        <!-- THEME STYLES -->
-        <link href="https://kifakz.github.io/css/layout.min.css?v=1.1" rel="stylesheet" type="text/css"/>
-
-        <!-- Favicon -->
-        <link rel="icon" href="https://kifakz.github.io/favicon.ico" type="image/x-icon">
-    </head>
-    <!-- END HEAD -->
-
-    <!-- BODY -->
-    <body>
-
-        <!--========== HEADER ==========-->
-        <header class="header navbar-fixed-top">
-            <!-- Navbar -->
-            <nav class="navbar" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="menu-container">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
-
-                        <!-- Logo -->
-						<div style="position:absolute;top:-10px;right:5px">
-						<p>Всё суета и ловля ветра. <img src="https://kifakz.github.io/img/connie_23.gif"></p></div>
-                        <div class="logo">
-						<a class="logo-wrap" href="https://kifakz.github.io">
-                        <h2> K&nbsp;&nbsp;I<img src="https://kifakz.github.io/img/logo.gif" border="0">F&nbsp;&nbsp;Akz.github.io</h2>
-						</a>
-						<div style="position:absolute;top:55px;left:25px">
-						<p>сидур</p></div>
-                        </div>
-                        <!-- End Logo -->
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-collapse">
-                        <div class="menu-container">
-                            <ul class="navbar-nav navbar-nav-right">
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="https://kifakz.github.io/bible/stoliar/">Тора для детей</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="https://kifakz.github.io/bible/stern/">Еврейский Новый Завет</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="https://kifakz.github.io/sidur/">сидур</a></li>
-                                
-                                </ul>
-                        </div>
-                    </div>
-                    <!-- End Navbar Collapse -->
-                </div>
-            </nav>
-            <!-- Navbar -->
-        </header>
-        <!--========== END HEADER ==========-->
-
-        <!--========== PAGE LAYOUT ==========-->
-       
-		<!-- Pricing -->
-        <div class="bg-color-sky-light">
-            <div class="content-lg container">
-                <div class="row row-space-1">
-                    <div class="col-sm-9 sm-margin-b-2">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
-﻿<center><select onchange="top.location=this.value">
-<option>Выбрать молитву из сидура:</option>
-		<option value="http://kifakz.github.io/sidur/016.html">Шахарит (утренняя составная)</option>
-		<option value="http://kifakz.github.io/sidur/014.html">Минха (дневная будничная)</option>
-		<option value="http://kifakz.github.io/sidur/009.html">Арвит (вечерняя составная)</option>
-		<option value="http://kifakz.github.io/sidur/001.html">Утренние благословения</option>
-		<option value="http://kifakz.github.io/sidur/002.html">Шма Исраэль</option>
-		<option value="http://kifakz.github.io/sidur/003.html">Адон олам</option>
-		<option value="http://kifakz.github.io/sidur/004.html">Шмонэ-Эсрэ</option>
-		<option value="http://kifakz.github.io/sidur/005.html">Суббота</option>
-		<option value="http://kifakz.github.io/sidur/006.html">Кадиш раввинов</option>
-<option value="http://kifakz.github.io/sidur/007.html">Благословение вызванного к Торе<br>
-<option value="http://kifakz.github.io/sidur/008.html">Ашрэй<br>
-<option value="http://kifakz.github.io/sidur/010.html">Алэну лешабэах<br>
-<option value="http://kifakz.github.io/sidur/011.html">Кадиш скорбящего<br>
-<option value="http://kifakz.github.io/sidur/012.html">После трапезы с хлебом<br>
-<option value="http://kifakz.github.io/sidur/013.html">Ханукальные свечи<br>
-<option value="http://kifakz.github.io/sidur/015.html">Обручение и женитьба<br>
-<option value="http://kifakz.github.io/sidur/017.html">Обрезание (брит мила)
-</select></center>
-<hr>
-<p><br>
-Начало субботы:<br>
-<table border="0">
-     <tbody>
-<tr><td><p>
-В пятницу вечером женщина при зажигании свечей произносит:<br>
-
-<font face="Arial" color="yellowgreen" size="3"><b>Бару&#769;х Ата&#769; А-дона&#769;й Элоэ&#769;ну Мэ&#769;лэх аола&#769;м </b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословен Ты, Г-сподь, наш Б-г, Царь вселенной,</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>ашэ&#769;р кидеша&#769;ну бемицвота&#769;в вецива&#769;ну леадли&#769;к нэр шэль шаба&#769;т.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">освятивший нас Своими заповедями и повелевший нам зажигать свечу в честь субботы.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/049.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=400');"><img src="gif/049.gif" height="110px"></A></td>
-</tr>
-</tbody></table>
-
-<hr>
-<table border="0">
-     <tbody>
-<tr><td><p>
-Далее принято произносить или петь:<br>
-<font face="Arial" color="yellowgreen" size="3"><b>Шало&#769;м алэ&#769;хэм малахэ&#769;й ашарэ&#769;т малахэ&#769;й Эльо&#769;н </b></font><br>
-<font face="Times New Roman" color="coral" size="3">Мир вам, посланцы-служители, ангелы Всевышнего</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>ми-Мэ&#769;лэх малхэ&#769;й аме&#769;лахим аКадо&#769;ш бару&#769;х у.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Царя царей, Святого, благословен Он.</font></td>
-<td> <a href="https://drive.google.com/uc?export=download&confirm=no_antivirus&id=0B_eCwSNQYGO1NGlRQmdfSmE2SGc">прослушать <img src="//kifa.kz/img/download.png"></a><br>
-<A HREF="#nul" ONCLICK="window.open('gif/050.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=400');"><img src="gif/050.gif" height="110px"></A><br>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td>
-<font face="Arial" color="yellowgreen" size="3"><b>Боахэ&#769;м лешало&#769;м малахэ&#769;й ашало&#769;м малахэ&#769;й Эльо&#769;н</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Придите с миром, посланцы мира, ангелы Всевышнего</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>ми-Мэ&#769;лэх малхэ&#769;й аме&#769;лахим аКадо&#769;ш бару&#769;х у.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Царя царей, Святого, благословен Он.</font></td>
-<td><a href="https://drive.google.com/uc?export=download&confirm=no_antivirus&id=0B_eCwSNQYGO1RVAtTHZuRFhvLU0">прослушать <img src="//kifa.kz/img/download.png"></a><br>
-<A HREF="#nul" ONCLICK="window.open('gif/051.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/051.gif" height="110px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td>
-<font face="Arial" color="yellowgreen" size="3"><b>Бареху&#769;ни лешало&#769;м малахэ&#769;й ашало&#769;м малахэ&#769;й Эльо&#769;н</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословите меня миром, посланцы мира, ангелы Всевышнего</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>ми-Мэ&#769;лэх малхэ&#769;й аме&#769;лахим аКадо&#769;ш бару&#769;х у.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Царя царей, Святого, благословен Он.</font></td>
-<td> <a href="https://drive.google.com/uc?export=download&confirm=no_antivirus&id=0B_eCwSNQYGO1aVVlMklOTTRuWmM">прослушать <img src="//kifa.kz/img/download.png"></a><br>
-<A HREF="#nul" ONCLICK="window.open('gif/052.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/052.gif" height="110px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td>
-<font face="Arial" color="yellowgreen" size="3"><b>Цэтехэ&#769;м лешало&#769;м малахэ&#769;й ашало&#769;м малахэ&#769;й Эльо&#769;н</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Идите с миром, посланцы мира, ангелы Всевышнего</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>ми-Мэ&#769;лэх малхэ&#769;й амелахи&#769;м аКадо&#769;ш бару&#769;х у.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Царя царей, Святого, благословен Он.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/053.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/053.gif" height="110px"></A></td>
-</tr>
-</tbody></table><hr>
-
-<table border="0">
-     <tbody>
-<tr><td><p>
-Кидуш над бокалом вина:<br>
-
-Шёпотом: <font face="Arial" color="yellowgreen" size="3"><b>Вайи&#769; эрэ&#769;в вайи&#769; бо&#769;кэр...</b></font><br>
-<font face="Times New Roman" color="coral" size="3">И был вечер, и было утро...</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/054.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/054.gif" height="60px"></A></td>
-</tr>
-</tbody></table>
-
-<table border="0">
-     <tbody>
-<tr><td>
-<font face="Arial" color="yellowgreen" size="3"><b>Йом ашиши&#769;, вайхулу&#769; ашамайи&#769;м веаэ&#769;рэц вехо&#769;ль цеваа&#769;м.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">День шестой. И были завершены небо, земля и всё их воинство.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>Вайха&#769;ль Элои&#769;м байо&#769;м ашевии&#769; мелахто&#769; ашэ&#769;р аса&#769; вайишбо&#769;т байо&#769;м ашевии&#769; мико&#769;ль мелахто&#769; ашэ&#769;р аса&#769;,</b></font><br>
-<font face="Times New Roman" color="coral" size="3">И закончил Б-г на седьмой день Свой труд, которым занимался, и в седьмой день отдыхал от всего Своего труда, которым занимался.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>вайварэ&#769;х Элои&#769;м эт йом ашевии&#769; вайкадэ&#769;ш ото&#769;,</b></font><br>
-<font face="Times New Roman" color="coral" size="3">И благословил Б-г седьмой день, и освятил его,</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>ки во шава&#769;т мико&#769;ль мелахто&#769; ашэ&#769;р бара&#769; Элои&#769;м лаасо&#769;т.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">ибо в этот день Он отдыхал от всего Своего труда, который был создан Б-гом для деяний.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/055.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/055.gif" height="250px"></A></td>
-</tr>
-</tbody></table><br>
-
-
-<table border="0">
-     <tbody>
-<tr><td><p>
-
-Над бокалом вина:<br>
-<font face="Arial" color="yellowgreen" size="3"><b>Саври&#769;, марана&#769;н.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Вне&#769;млите, господа.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/056.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/056.gif" height="25px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td>
-<font face="Arial" color="yellowgreen" size="3"><b>Бару&#769;х Ата&#769; А-дона&#769;й Элоэ&#769;ну Мэ&#769;лэх аола&#769;м борэ&#769; пери&#769; агафэ&#769;н.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословен Ты, Г-сподь, наш Б-г, Царь вселенной, творящий плод виноградной лозы.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/057.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/057.gif" height="80px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td><p>
-Над хлебом (халой):<br>
-<font face="Arial" color="yellowgreen" size="3"><b>Бару&#769;х Ата&#769; А-дона&#769;й Элоэ&#769;ну Мэ&#769;лэх аола&#769;м амо&#769;ци лэхэ&#769;м мин аэ&#769;рэц.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословен Ты, Г-сподь, наш Б-г, Царь вселенной, производящий хлеб из земли.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/058.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/058.gif" height="80px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td>
-<font face="Arial" color="yellowgreen" size="3"><b>Бару&#769;х Ата&#769; А-дона&#769;й Элоэ&#769;ну Мэ&#769;лэх аола&#769;м</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословен Ты, Г-сподь, наш Б-г, Царь вселенной,</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>ашэ&#769;р кидеша&#769;ну бемицвота&#769;в вераца&#769; ва&#769;ну,</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Который освятил нас Своими заповедями и благоволил нам,</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>вешаба&#769;т кодшо&#769; беаава&#769; уврацо&#769;н инхилану&#769; зикаро&#769;н лемаасэ&#769; верэши&#769;т,</b></font><br>
-<font face="Times New Roman" color="coral" size="3">наделив нас Своей святой субботой по любви и благосклонности - в память о сотворении мира,</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>техила&#769; лемикраэ&#769; кодэ&#769;ш зэхэ&#769;р лициа&#769;т Мицраи&#769;м.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">первый из святых праздников, напоминающий о выходе из Египта.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>Вешаба&#769;т кодше&#769;ха беаава&#769; уврацо&#769;н инхалтану&#769;.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">И Своей святой субботой по любви и благосклонности наделил нас.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>Бару&#769;х Ата&#769; А-дона&#769;й мекадэ&#769;ш ашаба&#769;т.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословен Ты, Г-сподь, освящающий субботу.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/059.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/059.gif" height="300px"></A></td>
-</tr>
-</tbody></table><hr>
-
-<table border="0">
-     <tbody>
-<tr><td><p>
-Кидуш в субботу утром:<br>
-(произносится над бокалом вина или над халой после утренней молитвы, до трапезы)<br>
-<font face="Arial" color="yellowgreen" size="3"><b>Им таши&#769;в мишаба&#769;т раглэ&#769;ха асо&#769;т хафацэ&#769;ха бейо&#769;м кодши&#769; векарата&#769; лашаба&#769;т онэ&#769;г ликдо&#769;ш А-дона&#769;й мехуба&#769;д,</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Если в субботу удержишь свою ногу, отказавшись от своих дел в Мой святой день, и назовёшь субботу отрадой, почтя святость Г-спода,</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>вехибадто&#769; мэасо&#769;т дерахэ&#769;ха мимецо&#769; хэфце&#769;ха ведабэ&#769;р дава&#769;р, аз титана&#769;г аль А-дона&#769;й</b></font><br>
-<font face="Times New Roman" color="coral" size="3">и почтишь её отказом от своих занятий, не ища себе дел и не говоря о них, то удостоишься блаженства в Г-споде.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>веиркавти&#769;ха аль бамотэ&#769;й э&#769;рэц веаахалти&#769;ха нахала&#769;т Яако&#769;в ави&#769;ха ки пи А-дона&#769;й дибэ&#769;р.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">И возведу Я тебя на высоты земли, и насыщу тебя наделом  Яакова, твоего праотца, потому что так изрекли уста Г-спода.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/060.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/060.gif" height="320px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td>
-<font face="Arial" color="yellowgreen" size="3"><b>Вешаме&#769;ру венэ&#769;й Йисраэ&#769;ль эт ашаба&#769;т лаасо&#769;т</b></font><br>
-<font face="Times New Roman" color="coral" size="3">И пусть соблюдают субботу сыновья Израиля,</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>эт ашаба&#769;т ледорота&#769;м бери&#769;т ола&#769;м</b></font><br>
-<font face="Times New Roman" color="coral" size="3">сделав субботу для всех своих поколений вечным заветом -</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>бэни&#769; увэ&#769;н бенэ&#769;й Йисраэ&#769;ль от и леола&#769;м,</b></font><br>
-<font face="Times New Roman" color="coral" size="3">между Мной и сыновьями Израиля, как вечный знак.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>ки шэшэ&#769;т ями&#769;м аса&#769; А-дона&#769;й эт ашамайи&#769;м веэ&#769;т аэ&#769;рэц</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Ибо шесть дней созидал Г-сподь небо и землю,</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>увайо&#769;м ашевии&#769; шава&#769;т вайинафа&#769;ш.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">а в седьмой день отдыхал и пребывал в покое.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/061.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/061.gif" height="280px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td>
-<font face="Arial" color="yellowgreen" size="3"><b>Захо&#769;р эт йом ашаба&#769;т лекадешо&#769;,</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Помни субботний день, чтобы освящать его.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>шэшэ&#769;т ями&#769;м тааво&#769;д веаси&#769;та коль мелахтэ&#769;ха вейо&#769;м ашевии&#769; шаба&#769;т лА-дона&#769;й Элоэ&#769;ха,</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Шесть дней трудись и делай всю свою работу, но седьмой день - суббота Г-споду, твоему Б-гу:</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>ло таасэ&#769; холь мелаха&#769; ата&#769; увинха&#769; увитэ&#769;ха авдэ&#769;ха ваамате&#769;ха увэмтэ&#769;ха</b></font><br>
-<font face="Times New Roman" color="coral" size="3">не совершай никакой работы - ни ты, ни твой сын, ни твоя дочь, ни твой раб, ни твоя рабыня, ни твой скот,</font><br>
-	<font face="Arial" color="yellowgreen" size="3"><b>вегэре&#769;ха ашэ&#769;р бишарэ&#769;ха,</b></font><br>
-<font face="Times New Roman" color="coral" size="3">ни чужеземец, который в твоих воротах.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>ки шэшэ&#769;т ями&#769;м аса&#769; А-дона&#769;й эт ашамайи&#769;м веэ&#769;т аэ&#769;рэц эт ая&#769;м веэ&#769;т коль ашэ&#769;р бам ваяна&#769;х байо&#769;м ашевии&#769;.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Ибо шесть дней созидал Г-сподь небо и землю, море и всё, что их наполняет, а в седьмой день пребывал в покое.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>Аль кэн бэра&#769;х А-дона&#769;й эт йом ашаба&#769;т вайкадешэ&#769;у.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Поэтому благословил Г-сподь седьмой день и освятил его.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/062.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/062.gif" height="430px"></A></td>
-</tr>
-</tbody></table><hr>
-
-<table border="0">
-     <tbody>
-<tr><td><p>Над вином:<br>
-<font face="Arial" color="yellowgreen" size="3"><b>Бару&#769;х Ата&#769; А-дона&#769;й Элоэ&#769;ну Мэ&#769;лэх аола&#769;м борэ&#769; пери&#769; агафэ&#769;н.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословен Ты, Г-сподь, наш Б-г, Царь вселенной, творящий плод виноградной лозы.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/057.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/057.gif" height="80px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td><p>
-Над хлебом (халой):<br>
-<font face="Arial" color="yellowgreen" size="3"><b>Бару&#769;х Ата&#769; А-дона&#769;й Элоэ&#769;ну Мэ&#769;лэх аола&#769;м амо&#769;ци лэхэ&#769;м мин аэ&#769;рэц.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословен Ты, Г-сподь, наш Б-г, Царь вселенной, производящий хлеб из земли.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/058.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/058.gif" height="80px"></A></td>
-</tr>
-</tbody></table><hr>
-
-
-<table border="0">
-     <tbody>
-<tr><td><p>
-Авдала (отделение):<br>
-После окончания субботы, вечером, произносят, взяв в руки бокал вина:<br>
-<font face="Arial" color="yellowgreen" size="3"><b>Инэ&#769; Эль йешуати&#769; эвта&#769;х вело&#769; эфха&#769;д ки ози&#769; везимра&#769;т Я А-дона&#769;й вайи&#769; ли лишу&#769;а.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Вот Б-г моего спасения. Буду спокоен и не устрашусь, ибо моя сила и моя песнь - Предвечный Г-сподь, Который был мне спасением.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>Ушавтэ&#769;м майи&#769;м бесасо&#769;н мимаайнэ&#769;й айшу&#769;а лА-дона&#769;й айшу&#769;а аль аме&#769;ха виртатэ&#769;ха сэла&#769;.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Черпайте воду, ликуя, из источников спасения. Спасение - от Г-спода; на народе  - Твоё благословение.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>А-дона&#769;й цевао&#769;т има&#769;ну мисга&#769;в лану&#769; Элоэ&#769;й Яако&#769;в сэла&#769;.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Г-сподь воинств - с нами; наша крепость - Б-г Яакова.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>А-дона&#769;й цевао&#769;т ашрэ&#769;й ада&#769;м ботэа&#769;х бах.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Г-сподь воинств, - счастлив человек, полагающийся на Тебя.</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>А-дона&#769;й ошиа&#769; аМэ&#769;лэх яанэ&#769;ну вейо&#769;м корэ&#769;ну.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Г-сподь, спаси! Да ответит нам Царь, когда мы взываем к Нему!</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>Лайеуди&#769;м айта&#769; ора&#769; весимха&#769; весасо&#769;н вика&#769;р, кэн тийэ&#769; лану&#769;,</b></font><br>
-<font face="Times New Roman" color="coral" size="3">У иудеев были свет, веселье, ликование и почёт. Да будет так и с нами!</font><br>
-<font face="Arial" color="yellowgreen" size="3"><b>кос йешуао&#769;т эса&#769; увшэ&#769;м А-дона&#769;й экра&#769;.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Вознесу чашу спасений и призову Имя Г-спода!</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/063.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/063.gif" height="480px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td><p>
-
-Над бокалом вина:<br>
-<font face="Arial" color="yellowgreen" size="3"><b>Саври&#769;, марана&#769;н.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Вне&#769;млите, господа.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/056.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/056.gif" height="25px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td>
-<font face="Arial" color="yellowgreen" size="3"><b>Бару&#769;х Ата&#769; А-дона&#769;й Элоэ&#769;ну Мэ&#769;лэх аола&#769;м борэ&#769; пери&#769; агафэ&#769;н.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословен Ты, Г-сподь, наш Б-г, Царь вселенной, творящий плод виноградной лозы.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/057.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/057.gif" height="80px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td><p>Над благовониями:<br>
-<font face="Arial" color="yellowgreen" size="3"><b>Бару&#769;х Ата&#769; А-дона&#769;й Элоэ&#769;ну Мэ&#769;лэх аола&#769;м борэ&#769; минэ&#769;й весами&#769;м.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословен Ты, Г-сподь, наш Б-г, Царь Вселенной, творящий ароматные вещества.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/064.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/064.gif" height="80px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td><p>
-(женщина зажигает свечу:)<br>
-<font face="Arial" color="yellowgreen" size="3"><b>Бару&#769;х Ата&#769; А-дона&#769;й Элоэ&#769;ну Мэ&#769;лэх аола&#769;м борэ&#769; меорэ&#769;й аэ&#769;ш.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословен Ты, Г-сподь, наш Б-г, Царь Вселенной, творящий сияние огня.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/065.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/065.gif" height="80px"></A></td>
-</tr>
-</tbody></table><br>
-
-<table border="0">
-     <tbody>
-<tr><td><p>
-Завершают авдалу словами:<br>
-<font face="Arial" color="yellowgreen" size="3"><b>Бару&#769;х Ата&#769; А-дона&#769;й Элоэ&#769;ну Мэ&#769;лэх аола&#769;м амавди&#769;ль бэн кодэ&#769;ш лехо&#769;ль бэн ор лехошэ&#769;х,</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословен Ты, Г-сподь, наш Б-г, Царь Вселенной, отделяющий святое от будничного, свет от тьмы,</font><br><br>
-<font face="Arial" color="yellowgreen" size="3"><b>бэн Йисраэ&#769;ль лаами&#769;м, бэн йом ашевии&#769; лешэшэ&#769;т йемэ&#769;й амаасэ&#769;.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Израиль от народов, седьмой день от шести дней труда.</font><br><br>
-<font face="Arial" color="yellowgreen" size="3"><b>Бару&#769;х Ата&#769; А-дона&#769;й амавди&#769;ль бэн кодэ&#769;ш лехо&#769;ль.</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Благословен Ты, Г-сподь, отделяющий святое от будничного.</font></td>
-<td><A HREF="#nul" ONCLICK="window.open('gif/066.gif','','Toolbar=0,Location=0,Directories=0,Status=0,Menubar=0,Scrollbars=0,Resizable=0,Width=665,Height=600');"><img src="gif/066.gif" height="250px"></A></td>
-</tr>
-</tbody></table><p>
-Женщина может задуть свечу. Все желают друг другу:<br>
-<font face="Arial" color="yellowgreen" size="3"><b>Шавуа&#769; тов!</b></font><br>
-<font face="Times New Roman" color="coral" size="3">Хорошей недели!</font><br>
-</p>
-﻿<center><select onchange="top.location=this.value">
-<option>Выбрать молитву из сидура:</option>
-		<option value="http://kifakz.github.io/sidur/016.html">Шахарит (утренняя составная)</option>
-		<option value="http://kifakz.github.io/sidur/014.html">Минха (дневная будничная)</option>
-		<option value="http://kifakz.github.io/sidur/009.html">Арвит (вечерняя составная)</option>
-		<option value="http://kifakz.github.io/sidur/001.html">Утренние благословения</option>
-		<option value="http://kifakz.github.io/sidur/002.html">Шма Исраэль</option>
-		<option value="http://kifakz.github.io/sidur/003.html">Адон олам</option>
-		<option value="http://kifakz.github.io/sidur/004.html">Шмонэ-Эсрэ</option>
-		<option value="http://kifakz.github.io/sidur/005.html">Суббота</option>
-		<option value="http://kifakz.github.io/sidur/006.html">Кадиш раввинов</option>
-<option value="http://kifakz.github.io/sidur/007.html">Благословение вызванного к Торе<br>
-<option value="http://kifakz.github.io/sidur/008.html">Ашрэй<br>
-<option value="http://kifakz.github.io/sidur/010.html">Алэну лешабэах<br>
-<option value="http://kifakz.github.io/sidur/011.html">Кадиш скорбящего<br>
-<option value="http://kifakz.github.io/sidur/012.html">После трапезы с хлебом<br>
-<option value="http://kifakz.github.io/sidur/013.html">Ханукальные свечи<br>
-<option value="http://kifakz.github.io/sidur/015.html">Обручение и женитьба<br>
-<option value="http://kifakz.github.io/sidur/017.html">Обрезание (брит мила)
-</select></center>
-<hr>	
+<main>
+    <div class="prayer-container">
+ <div class="prayer-selector">
+    <select class="custom-select" onchange="window.location.href=this.value">
+        <option value="" disabled selected>Выбрать молитву...</option>
+        <option value="016.html">Шахарит (утренняя составная)</option>
+		<option value="014.html">Минха (дневная будничная)</option>
+		<option value="009.html">Арвит (вечерняя составная)</option>
+		<option value="001.html">Утренние благословения</option>
+		<option value="002.html">Шма Исраэль</option>
+		<option value="003.html">Адон олам</option>
+		<option value="004.html">Шмонэ-Эсрэ</option>
+		<option value="005.html">Суббота</option>
+		<option value="006.html">Кадиш раввинов</option>
+		<option value="007.html">Благословение вызванного к Торе</option>
+		<option value="008.html">Ашрэй</option>
+		<option value="010.html">Алэну лешабэах</option>
+		<option value="011.html">Кадиш скорбящего</option>
+		<option value="012.html">После трапезы с хлебом</option>
+		<option value="013.html">Ханукальные свечи</option>
+		<option value="015.html">Обручение и женитьба</option>
+		<option value="017.html">Обрезание (брит мила)</option>
+    </select>
 </div>
-</div>
-                
-                    <div class="col-sm-3">
-                        <div class="wow fadeInRight" data-wow-duration=".3" data-wow-delay=".1s">
-                            <div class="pricing">
-<!-- Phrases -->							
-<p>
-<center>
-<!-- radio -->
-<audio controls="controls">
-<source src="https://listen.myrh.ru/id06593" type="audio/mpeg" />
-Your browser does not support the audio element.
-</audio>
-<a href="https://el-hi.com" target="_blank" rel="noopener">Радио EL-HI</a>
-<hr><a href="https://kifakz.github.io/bible/stoliar/">Тора для детей</a> | <a href="https://kifakz.github.io/bible/stern/">Еврейский Новый Завет</a> | <a href="https://kifakz.github.io/bible/stern/mem/">Мессианский еврейский манифест</a> | <a href="https://kifakz.github.io/sidur/">сидур</a>
 
-<center>
-                          
-<hr><br><p>
-<a href="https://toldot.ru/urava/jdate/" target="_blank"><img src="https://www.calend.ru/img/export/informer_4.png" width="150" alt="Еврейские праздники" border="0"></a>
-<hr>
-<a href="https://www.youtube.com/user/kifakz" target="_blank"><img src="https://kifakz.github.io/img/youtube.png" height="40px"></a> 
-<a href="https://www.facebook.com/www.kifakz.github.io" target="_blank"><img src="https://kifakz.github.io/img/fb.png" height="40px"></a>
-<br><br>
-</center>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
+        <div class="instruction-block">
+            <h2 class="section-title">Начало субботы</h2><p>
+			В пятницу вечером женщина при зажигании свечей произносит:</p>
+
         </div>
-        <!-- End Pricing -->
-        <!--========== END PAGE LAYOUT ==========-->
 
+        <div id="prayer-content"></div>
+    </div>
+</main>
 
+<div id="footer-container"></div>
 
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top"><b>^</b></a>
+<script>
+    // 1. ДАННЫЕ МОЛИТВЫ
+const prayerData = [
+    {
+	    hb_structured: [
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֱלֹהֵינוּ", p: "Элоэ́ну", t: "Б-г наш"},
+            {w: "מֶלֶךְ", p: "Мэ́лэх", t: "Царь"},
+            {w: "הָעוֹלָם", p: "а-ола́м", t: "Вселенной"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м",
+        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной",
+		hr: false
+    },
+	{
+        hb_structured: [
+            {w: "אֲשֶׁר", p: "ашэ́р", t: "который"},
+            {w: "קִדְּשָׁנוּ", p: "кидеша́ну", t: "освятил нас"},
+            {w: "בְּמִצְוֹתָיו", p: "бе-мицвота́в", t: "заповедями Своими"},
+            {w: "וְצִוָּנוּ", p: "ве-цива́ну", t: "и повелел нам"},
+            {w: "לְהַדְלִיק", p: "леадли́к", t: "зажигать"},
+            {w: "נֵר", p: "нэр", t: "свечу"},
+            {w: "שֶׁל", p: "шэль", t: "[в честь]"},
+            {w: "שַׁבָּת׃", p: "шаба́т", t: "субботы"}
+        ],
+        tr: "ашэ́р кидеша́ну бемицвота́в вецива́ну леадли́к нэр шэль шаба́т",
+        ru: "освятивший нас Своими заповедями и повелевший нам зажигать свечу в честь субботы",
+		hr: true
+    },
+	{
+	customHTML: `
+            <p>Далее принято произносить или петь:</p>
+        `},
+		{
+		hb_structured: [
+            {w: "שָׁלוֹם", p: "Шало́м", t: "Мир"},
+            {w: "עֲלֵיכֶם", p: "алэ́хэм", t: "вам"},
+            {w: "מַלְאֲכֵי", p: "малахэ́й", t: "посланцы (ангелы)"},
+            {w: "הַשָּׁרֵת", p: "а-шарэ́т", t: "служения"},
+            {w: "מַלְאֲכֵי", p: "малахэ́й", t: "ангелы"},
+            {w: "עֶלְיוֹן", p: "Эльо́н", t: "Всевышнего"}
+        ],
+        tr: "Шало́м алэ́хэм малахэ́й а-шарэ́т малахэ́й Эльо́н",
+        ru: "Мир вам, посланцы-служители, ангелы Всевышнего",
+		hr: false
+    },
+    {
+        hb_structured: [
+            {w: "מִמֶּלֶךְ", p: "ми-Мэ́лэх", t: "от Царя"},
+            {w: "מַלְכֵי", p: "малхэ́й", t: "царей"},
+            {w: "הַמְּלָכִים", p: "а-мелахи́м", t: "над царями"},
+            {w: "הַקָּדוֹשׁ", p: "а-Кадо́ш", t: "Святого"},
+            {w: "בָּרוּךְ", p: "бару́х", t: "благословен"},
+            {w: "הוּא", p: "У", t: "Он"}
+        ],
+        tr: "ми-Мэ́лэх малхэ́й а-мелахи́м а-Кадо́ш бару́х У",
+        ru: "Царя царей, Святого, благословен Он.",
+		hr: false
+	},
+	{
+        hb_structured: [
+            {w: "בּוֹאֲכֶם", p: "Боахэ́м", t: "пришествие ваше"},
+            {w: "לְשָׁלוֹם", p: "ле-шало́м", t: "к миру"},
+            {w: "מַלְאֲכֵי", p: "малахэ́й", t: "ангелы"},
+            {w: "הַשָּׁלוֹם", p: "а-шало́м", t: "мира"},
+            {w: "מַלְאֲכֵי", p: "малахэ́й", t: "ангелы"},
+            {w: "עֶלְיוֹן", p: "Эльо́н", t: "Всевышнего"}
+        ],
+        tr: "Боахэ́м ле-шало́м малахэ́й а-шало́м малахэ́й Эльо́н",
+        ru: "Придите с миром, ангелы мира, ангелы Всевышнего,",
+		hr: false
+    },
+    {
+        hb_structured: [
+            {w: "מִמֶּלֶךְ", p: "ми-Мэ́лэх", t: "от Царя"},
+            {w: "מַלְכֵי", p: "малхэ́й", t: "царей"},
+            {w: "הַמְּלָכִים", p: "а-мелахи́м", t: "над царями"},
+            {w: "הַקָּדוֹשׁ", p: "а-Кадо́ш", t: "Святого"},
+            {w: "בָּרוּךְ", p: "бару́х", t: "благословен"},
+            {w: "הוּא", p: "У", t: "Он"}
+        ],
+        tr: "ми-Мэ́лэх малхэ́й а-мелахи́м а-Кадо́ш бару́х У",
+        ru: "Царя царей, Святого, благословен Он.",
+		hr: false
+    },
+	{
+        hb_structured: [
+            {w: "בָּרְכוּנִי", p: "Бареху́ни", t: "благословите меня"},
+            {w: "לְשָׁלוֹם", p: "ле-шало́м", t: "к миру"},
+            {w: "מַלְאֲכֵי", p: "малахэ́й", t: "ангелы"},
+            {w: "הַשָּׁלוֹם", p: "а-шало́м", t: "мира"},
+            {w: "מַלְאֲכֵי", p: "малахэ́й", t: "ангелы"},
+            {w: "עֶלְיוֹן", p: "Эльо́н", t: "Всевышнего"}
+        ],
+        tr: "Бареху́ни ле-шало́м малахэ́й а-шало́м малахэ́й Эльо́н",
+        ru: "Благословите меня миром, посланцы мира, ангелы Всевышнего,",
+		hr: false
+    },
+    {
+        hb_structured: [
+            {w: "מִמֶּלֶךְ", p: "ми-Мэ́лэх", t: "от Царя"},
+            {w: "מַלְכֵי", p: "малхэ́й", t: "царей"},
+            {w: "הַמְּלָכִים", p: "а-мелахи́м", t: "над царями"},
+            {w: "הַקָּדוֹשׁ", p: "а-Кадо́ш", t: "Святого"},
+            {w: "בָּרוּךְ", p: "бару́х", t: "благословен"},
+            {w: "הוּא", p: "У", t: "Он"}
+        ],
+        tr: "ми-Мэ́лэх малхэ́й а-мелахи́м а-Кадо́ш бару́х У",
+        ru: "Царя царей, Святого, благословен Он.",
+		hr: false
+    },
+	{
+        hb_structured: [
+            {w: "צֵאתְכֶם", p: "Цэтхэ́м", t: "исход (уход) ваш"},
+            {w: "לְשָׁלוֹם", p: "ле-шало́м", t: "к миру"},
+            {w: "מַלְאֲכֵי", p: "малахэ́й", t: "ангелы"},
+            {w: "הַשָּׁלוֹם", p: "а-шало́м", t: "мира"},
+            {w: "מַלְאֲכֵי", p: "малахэ́й", t: "ангелы"},
+            {w: "עֶלְיוֹן", p: "Эльо́н", t: "Всевышнего"}
+        ],
+        tr: "Цэтхэ́м ле-шало́м малахэ́й а-шало́м малахэ́й Эльо́н",
+        ru: "Уйдите с миром, посланцы мира, ангелы Всевышнего,",
+		hr: false
+    },
+    {
+        hb_structured: [
+            {w: "מִמֶּלֶךְ", p: "ми-Мэ́лэх", t: "от Царя"},
+            {w: "מַלְכֵי", p: "малхэ́й", t: "царей"},
+            {w: "הַמְּלָכִים", p: "а-мелахи́м", t: "над царями"},
+            {w: "הַקָּדוֹשׁ", p: "а-Кадо́ш", t: "Святого"},
+            {w: "בָּרוּךְ", p: "бару́х", t: "благословен"},
+            {w: "הוּא", p: "У", t: "Он"}
+        ],
+        tr: "ми-Мэ́лэх малхэ́й а-мелахи́м а-Кадо́ш бару́х У",
+        ru: "Царя царей, Святого, благословен Он.",
+		hr: true
+    },
+	{
+	customHTML: `
+            <hr><p>Кидуш над бокалом вина:<br>
+Шёпотом:</p>
+        `
+	    },
+	{		
+        hb_structured: [
+            {w: "וַיְהִי", p: "Вайи́", t: "И был"},
+            {w: "עֶרֶב", p: "э́рэв", t: "вечер"},
+            {w: "וַיְהִי", p: "вайи́", t: "и был"},
+            {w: "בֹקֶר", p: "бо́кэр", t: "утро"}
+        ],
+        tr: "Вайи́ эрэ́в вайи́ бо́кэр",
+        ru: "И был вечер, и было утро",
+        hr: false
+    },
+	{
+        hb_structured: [
+            {w: "יוֹם", p: "Йом", t: "День"},
+            {w: "הַשִּׁשִּׁי", p: "а-шиши́", t: "шестой"},
+            {w: "וַיְכֻלּוּ", p: "вайхулу́", t: "и завершены были"},
+            {w: "הַשָּׁמַיִם", p: "а-шама́йим", t: "небеса"},
+            {w: "וְהָאָרֶץ", p: "ве-а-э́рэц", t: "и земля"},
+            {w: "וְכָל", p: "ве-холь", t: "и всё"},
+            {w: "צְבָאָם", p: "цеваа́м", t: "воинство их"}
+        ],
+        tr: "Йом а-шиши́, вайхулу́ а-шама́йим ве-а-э́рэц ве-хо́ль цеваа́м",
+        ru: "День шестой. И были завершены небо, земля и всё их воинство.",
+        hr: false
+    },
+	{
+        hb_structured: [
+            {w: "וַיְכַל", p: "Вайха́ль", t: "И закончил"},
+            {w: "אֱלֹהִים", p: "Элои́м", t: "Б-г"},
+            {w: "בַּיּוֹם", p: "ба-йо́м", t: "в день"},
+            {w: "הַשְּׁבִיעִי", p: "а-шевии́", t: "седьмой"},
+            {w: "מְלַאכְתּוֹ", p: "мелахто́", t: "труд Свой"},
+            {w: "אֲשֶׁר", p: "ашэ́р", t: "который"},
+            {w: "עָשָׂה", p: "аса́", t: "делал"}
+        ],
+        tr: "Вайха́ль Элои́м ба-йо́м а-шевии́ мелахто́ ашэ́р аса́",
+        ru: "И закончил Б-г на седьмой день Свой труд, которым занимался,",
+        hr: false
+    },
+	{
+        hb_structured: [
+            {w: "וַיִּשְׁבֹּת", p: "вайишбо́т", t: "и отдыхал"},
+            {w: "בַּיּוֹם", p: "ба-йо́м", t: "в день"},
+            {w: "הַשְּׁבִיעִי", p: "а-шевии́", t: "седьмой"},
+            {w: "מִכָּל", p: "ми-ко́ль", t: "от всего"},
+            {w: "מְלַאכְתּוֹ", p: "мелахто́", t: "труда Своего"},
+            {w: "אֲשֶׁר", p: "ашэ́р", t: "который"},
+            {w: "עָשָׂה", p: "аса́", t: "делал"}
+        ],
+        tr: "вайишбо́т ба-йо́м а-шевии́ ми-ко́ль мелахто́ ашэ́р аса́",
+        ru: "и в седьмой день отдыхал от всего Своего труда, которым занимался.",
+        hr: false
+    },
+	{
+        hb_structured: [
+            {w: "וַיְבָרֶךְ", p: "вайварэ́х", t: "И благословил"},
+            {w: "אֱלֹהִים", p: "Элои́м", t: "Б-г"},
+            {w: "אֶת", p: "эт", t: "---"},
+            {w: "יוֹם", p: "йом", t: "день"},
+            {w: "הַשְּׁבִיעִי", p: "а-шевии́", t: "седьмой"},
+            {w: "וַיְקַדֵּשׁ", p: "вайкадэ́ш", t: "и освятил"},
+            {w: "אֹתוֹ", p: "ото́", t: "его"}
+        ],
+        tr: "вайварэ́х Элои́м эт йом а-шевии́ вайкадэ́ш ото́",
+        ru: "И благословил Б-г седьмой день, и освятил его,",
+        hr: false
+    },
+	{
+        hb_structured: [
+            {w: "כִּי", p: "ки", t: "ибо"},
+            {w: "בוֹ", p: "во", t: "в нем"},
+            {w: "שָׁבַת", p: "шава́т", t: "отдыхал"},
+            {w: "מִכָּל", p: "ми-ко́ль", t: "от всего"},
+            {w: "מְלַאכְתּוֹ", p: "мелахто́", t: "труда Своего"},
+            {w: "אֲשֶׁר", p: "ашэ́р", t: "который"},
+            {w: "בָּרָא", p: "бара́", t: "сотворил"},
+            {w: "אֱלֹהִים", p: "Элои́м", t: "Б-г"},
+            {w: "לַעֲשׂוֹת", p: "лаасо́т", t: "для деяния"}
+        ],
+        tr: "ки во шава́т ми-ко́ль мелахто́ ашэ́р бара́ Элои́м лаасо́т",
+        ru: "ибо в этот день Он отдыхал от всего Своего труда, который был сотворен Б-гом для деяний.",
+        hr: true
+    },
+	{
+        customHTML: `
+            <p>Над бокалом вина:</p>
+        `,
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "סַבְרִי", p: "Саври́", t: "Внемлите"},
+            {w: "מָרָנָן", p: "марана́н", t: "господа мои"}
+        ],
+        tr: "Саври́, марана́н",
+        ru: "Внемлите, господа мои",
+        hr: false
+    },
+	{
+        hb_structured: [
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֱלֹהֵינוּ", p: "Элоэ́ну", t: "Б-г наш"},
+            {w: "מֶלֶךְ", p: "Мэ́лэх", t: "Царь"},
+            {w: "הָעוֹלָם", p: "а-ола́м", t: "Вселенной"},
+            {w: "בּוֹרֵא", p: "борэ́", t: "Творящий"},
+            {w: "פְּרִי", p: "пери́", t: "плод"},
+            {w: "הַגָּפֶן", p: "а-гафэ́н", t: "виноградной лозы"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м борэ́ пери́ агафэ́н",
+        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной, творящий плод виноградной лозы.",
+        hr: true
+    },
+		{
+	customHTML: `
+            <hr><p>Перед тем, как выпить вино, продолжают:</p>
+        `
+	    },
+	{
+        hb_structured: [
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֱלֹהֵינוּ", p: "Элоэ́ну", t: "Б-г наш"},
+            {w: "מֶלֶךְ", p: "Мэ́лэх", t: "Царь"},
+            {w: "הָעוֹלָם", p: "а-ола́м", t: "Вселенной"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м",
+        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "אֲשֶׁר", p: "ашэ́р", t: "Который"},
+            {w: "קִדְּשָׁנוּ", p: "кидеша́ну", t: "освятил нас"},
+            {w: "בְּמִצְוֹתָיו", p: "бе-мицвота́в", t: "заповедями Своими"},
+            {w: "וְרָצָה", p: "ве-раца́", t: "и благоволил"},
+            {w: "בָּנוּ", p: "ва́ну", t: "нам"}
+        ],
+        tr: "ашэ́р кидеша́ну бемицвота́в вераца́ ва́ну",
+        ru: "Который освятил нас Своими заповедями и благоволил нам,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "וְשַׁבַּת", p: "ве-шаба́т", t: "и субботой"},
+            {w: "קָדְשׁוֹ", p: "кодшо́", t: "святой Своей"},
+            {w: "בְּאַהֲבָה", p: "бе-аава́", t: "в любви"},
+            {w: "וּבְרָצוֹן", p: "у-врацо́н", t: "и в благоволении"},
+            {w: "הִנְחִילָנוּ", p: "инхила́ну", t: "наделил нас"},
+            {w: "זִכָּרוֹן", p: "зикаро́н", t: "в память"},
+            {w: "לְמַעֲשֵׂה", p: "ле-маасэ́", t: "о деле"},
+            {w: "בְרֵאשִׁית", p: "вэрэши́т", t: "начала (сотворения)"}
+        ],
+        tr: "вешаба́т кодшо́ беаава́ уврацо́н инхила́ну зикаро́н лемаасэ́ верэши́т",
+        ru: "наделив нас Своей святой субботой по любви и благосклонности - в память о сотворении мира,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "תְּחִלָּה", p: "техила́", t: "начало"},
+            {w: "לְמִקְרָאֵי", p: "ле-микраэ́", t: "для созываний"},
+            {w: "קֹדֶשׁ", p: "кодэ́ш", t: "святых"},
+            {w: "זֵכֶר", p: "зэхэ́р", t: "память"},
+            {w: "לִיצִיאַת", p: "лициа́т", t: "о выходе"},
+            {w: "מִצְרָיִם", p: "Мицра́йим", t: "Египта"}
+        ],
+        tr: "техила́ лемикраэ́ кодэ́ш зэхэ́р лициа́т Мицра́йим",
+        ru: "первый из святых праздников, напоминающий о выходе из Египта.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "וְשַׁבַּת", p: "ве-шаба́т", t: "И субботой"},
+            {w: "קָדְשְׁךָ", p: "кодшэ́ха", t: "Своей святой"},
+            {w: "בְּאַהֲבָה", p: "бе-аава́", t: "в любви"},
+            {w: "וּבְרָצוֹн", p: "у-врацо́н", t: "и благоволении"},
+            {w: "הִנְחַלְתָּנוּ", p: "инхалта́ну", t: "наделил Ты нас"}
+        ],
+        tr: "вешаба́т кодшэ́ха беаава́ уврацо́н инхалта́ну",
+        ru: "И Своей святой субботой по любви и благосклонности наделил нас.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "מְקַדֵּשׁ", p: "мекадэ́ш", t: "освящающий"},
+            {w: "הַשַּׁבָּת", p: "а-шаба́т", t: "субботу"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й мекадэ́ш ашаба́т",
+        ru: "Благословен Ты, Г-сподь, освящающий субботу.",
+        hr: true
+    },
+	{
+        customHTML: `
+            <hr><p>После омовения рук, произносят над хлебом (халой):</p>
+        `,
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֱלֹהֵינוּ", p: "Элоэ́ну", t: "Б-г наш"},
+            {w: "מֶלֶךְ", p: "Мэ́лэх", t: "Царь"},
+            {w: "הָעוֹלָם", p: "а-ола́м", t: "Вселенной"},
+            {w: "הַמּוֹצִיא", p: "а-моци́", t: "Выводящий"},
+            {w: "לֶחֶם", p: "лэхэ́м", t: "хлеб"},
+            {w: "מִן", p: "мин", t: "из"},
+            {w: "הָאָרֶץ", p: "а-э́рэц", t: "земли"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м амоци́ лэхэ́м мин аэ́рэц",
+        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной, производящий хлеб из земли.",
+        hr: true
+    },
+	{
+        customHTML: `
+            <p>Кидуш в субботу утром:</p>
+            <p>(произносится над бокалом вина или над халой после утренней молитвы, до трапезы)</p>
+        `,
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "אִם", p: "Им", t: "Если"},
+            {w: "תָּשִׁיב", p: "таши́в", t: "удержишь"},
+            {w: "מִשַּׁבָּת", p: "ми-шаба́т", t: "от субботы"},
+            {w: "רַגְלֶךָ", p: "раглэ́ха", t: "ногу твою"},
+            {w: "עֲשׂוֹת", p: "асо́т", t: "от дел"},
+            {w: "חֲפָצֶךָ", p: "хафацэ́ха", t: "желаний твоих"},
+            {w: "בְּיוֹם", p: "бе-йо́м", t: "в день"},
+            {w: "קָדְשִׁי", p: "кодши́", t: "святой Мой"}
+        ],
+        tr: "Им таши́в мишаба́т раглэ́ха асо́т хафацэ́ха бейо́м кодши́",
+        ru: "Если в субботу удержишь свою ногу, отказавшись от своих дел в Мой святой день,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "וְקָרָאתָ", p: "ве-карата́", t: "и назовешь"},
+            {w: "לַשַּׁבָּת", p: "ла-шаба́т", t: "субботу"},
+            {w: "עֹנֶג", p: "о́нэг", t: "отрадой"},
+            {w: "לִקְדוֹשׁ", p: "ликдо́ш", t: "святости"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-спода"},
+            {w: "מְכֻבָּד", p: "мехуба́д", t: "почитаемой"}
+        ],
+        tr: "векарата́ лашаба́т онэ́г ликдо́ш А-дона́й мехуба́д",
+        ru: "и назовёшь субботу отрадой, почтя святость Г-спода,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "וְכִבַּדְתּוֹ", p: "ве-хибадто́", t: "и почтишь её"},
+            {w: "מֵעֲשׂוֹת", p: "мэ-асо́т", t: "от дел"},
+            {w: "דְּרָכֶיךָ", p: "дерахэ́ха", t: "путей твоих"},
+            {w: "מִמְּצוֹא", p: "ми-мецо́", t: "от нахождения"},
+            {w: "חֶפְצְךָ", p: "хэфце́ха", t: "дел твоих"},
+            {w: "וְדַבֵּר", p: "ве-дабэ́р", t: "и говорения"},
+            {w: "דָּבָר", p: "дава́р", t: "слов"}
+        ],
+        tr: "вехибадто́ мэасо́т дерахэ́ха мимецо́ хэфце́ха ведабэ́р дава́р",
+        ru: "и почтишь её отказом от своих занятий, не ища себе дел и не говоря о них,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "אָז", p: "аз", t: "тогда"},
+            {w: "תִּתְעַנַּג", p: "титана́г", t: "будешь наслаждаться"},
+            {w: "עַל", p: "аль", t: "с"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподом"}
+        ],
+        tr: "аз титана́г аль А-дона́й",
+        ru: "то удостоишься блаженства в Г-споде.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "וְהִרְכַּבְתִּיךָ", p: "ве-иркавти́ха", t: "И возведу Я тебя"},
+            {w: "עַל", p: "аль", t: "на"},
+            {w: "בָּמוֹתֵי", p: "бамотэ́й", t: "высоты"},
+            {w: "אָרֶץ", p: "э́рэц", t: "земли"}
+        ],
+        tr: "веиркавти́ха аль бамотэ́й э́рэц",
+        ru: "И возведу Я тебя на высоты земли,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "וְהַאֲכַלְתִּיךָ", p: "ве-аахалти́ха", t: "и насыщу тебя"},
+            {w: "נַחֲלַת", p: "нахала́т", t: "наделом"},
+            {w: "יַעֲקֹב", p: "Яако́в", t: "Яакова"},
+            {w: "אָבִיךָ", p: "ави́ха", t: "отца твоего"},
+            {w: "כִּי", p: "ки", t: "ибо"},
+            {w: "פִּי", p: "пи", t: "уста"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-спода"},
+            {w: "דִּבֵּר", p: "дибэ́р", t: "изрекли"}
+        ],
+        tr: "веаахалти́ха нахала́т Яако́в ави́ха ки пи А-дона́й дибэ́р",
+        ru: "и насыщу тебя наделом Яакова, твоего праотца, потому что так изрекли уста Г-спода.",
+        hr: true
+    },
+	{
+        hb_structured: [
+            {w: "וְשָׁמְרוּ", p: "ве-шамру́", t: "и пусть соблюдают"},
+            {w: "בְנֵי", p: "вэнэ́й", t: "сыновья"},
+            {w: "יִשְׂרָאֵל", p: "Йисраэ́ль", t: "Израиля"},
+            {w: "אֶת", p: "эт", t: "---"},
+            {w: "הַשַּׁבָּת", p: "а-шаба́т", t: "субботу"}
+        ],
+        tr: "Вешамру́ вэнэ́й Йисраэ́ль эт ашаба́т",
+        ru: "И пусть соблюдают субботу сыновья Израиля,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "לַעֲשׂוֹת", p: "лаасо́т", t: "сделать"},
+            {w: "אֶת", p: "эт", t: "---"},
+            {w: "הַשַּׁבָּת", p: "а-шаба́т", t: "субботу"},
+            {w: "לְדֹרֹתָם", p: "ле-дорота́м", t: "для поколений их"},
+            {w: "בְּרִית", p: "бери́т", t: "союз"},
+            {w: "עוֹלָם", p: "ола́м", t: "вечный"}
+        ],
+        tr: "лаасо́т эт ашаба́т ледорота́м бери́т ола́м",
+        ru: "сделав субботу для всех своих поколений вечным заветом —",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "בֵּינִי", p: "бэн-и́", t: "между Мной"},
+            {w: "וּבֵין", p: "у-вэ́н", t: "и между"},
+            {w: "בְּנֵי", p: "бэнэ́й", t: "сыновьями"},
+            {w: "יִשְׂרָאֵל", p: "Йисраэ́ль", t: "Израиля"},
+            {w: "אוֹת", p: "от", t: "знак"},
+            {w: "הִיא", p: "и", t: "она (есть)"},
+            {w: "לְעֹלָם", p: "ле-ола́м", t: "навеки"}
+        ],
+        tr: "бэни́ увэн бэнэ́й Йисраэ́ль от и леола́м",
+        ru: "между Мной и сыновьями Израиля, как вечный знак.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "כִּי", p: "ки", t: "ибо"},
+            {w: "שֵׁשֶׁת", p: "шэ́шэт", t: "шесть"},
+            {w: "יָמִים", p: "ями́м", t: "дней"},
+            {w: "עָשָׂה", p: "аса́", t: "создавал"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֶת", p: "эт", t: "---"},
+            {w: "הַשָּׁמַיִם", p: "а-шама́йим", t: "небеса"},
+            {w: "וְאֶת", p: "ве-эт", t: "и"},
+            {w: "הָאָרֶץ", p: "а-э́рэц", t: "землю"}
+        ],
+        tr: "ки шэшэ́т ями́м аса́ А-дона́й эт ашама́йим ве-э́т аэ́рэц",
+        ru: "Ибо шесть дней созидал Г-сподь небо и землю,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "וּבַיּוֹם", p: "у-вайо́м", t: "а в день"},
+            {w: "הַשְּׁבִיעִי", p: "а-шевии́", t: "седьмой"},
+            {w: "שָׁבַת", p: "шава́т", t: "отдыхал"},
+            {w: "וַיִּנָּפַשׁ", p: "вай-инафа́ш", t: "и пребывал в покое"}
+        ],
+        tr: "увайо́м ашевии́ шава́т вай-инафа́ш",
+        ru: "а в седьмой день отдыхал и пребывал в покое.",
+        hr: true
+    },
+	{
+        hb_structured: [
+            {w: "זָכוֹר", p: "Захо́р", t: "Помни"},
+            {w: "אֶת", p: "эт", t: "---"},
+            {w: "יוֹם", p: "йом", t: "день"},
+            {w: "הַשַּׁבָּת", p: "а-шаба́т", t: "субботний"},
+            {w: "לְקַדְּשׁוֹ", p: "ле-кадшо́", t: "чтобы освящать его"}
+        ],
+        tr: "Захо́р эт йом ашаба́т лекадшо́",
+        ru: "Помни субботний день, чтобы освящать его.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "שֵׁשֶׁת", p: "шэ́шэт", t: "шесть"},
+            {w: "יָמִים", p: "ями́м", t: "дней"},
+            {w: "תַּעֲבֹד", p: "тааво́д", t: "трудись"},
+            {w: "וְעָשִׂיתָ", p: "ве-аси́та", t: "и делай"},
+            {w: "כָּל", p: "коль", t: "всю"},
+            {w: "מְלַאכְתֶּךָ", p: "мелахтэ́ха", t: "работу твою"}
+        ],
+        tr: "шэшэ́т ями́м тааво́д веаси́та коль мелахтэ́ха",
+        ru: "Шесть дней трудись и делай всю свою работу,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "וְיוֹם", p: "ве-йо́м", t: "а день"},
+            {w: "הַשְּׁבִיעִי", p: "а-шевии́", t: "седьмой"},
+            {w: "שַׁבָּת", p: "шаба́т", t: "суббота"},
+            {w: "לַייְָ", p: "лА-дона́й", t: "Г-споду"},
+            {w: "אֱלֹהֶיךָ", p: "Элоэ́ха", t: "Б-гу твоему"}
+        ],
+        tr: "вейо́м ашевии́ шаба́т лА-дона́й Элоэ́ха",
+        ru: "но седьмой день — суббота Г-споду, твоему Б-гу:",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "לֹא", p: "ло", t: "не"},
+            {w: "תַעֲשֶׂה", p: "таасэ́", t: "совершай"},
+            {w: "כָל", p: "холь", t: "никакой"},
+            {w: "מְלָאכָה", p: "мелаха́", t: "работы"},
+            {w: "אַתָּה", p: "ата́", t: "ты"},
+            {w: "וּבִנְךָ", p: "у-винха́", t: "и сын твой"},
+            {w: "וּבִתֶּךָ", p: "у-витэ́ха", t: "и дочь твоя"},
+            {w: "עַבְדְּךָ", p: "авдэ́ха", t: "раб твой"},
+            {w: "וַאֲמָתְךָ", p: "ва-ааматэ́ха", t: "и рабыня твоя"},
+            {w: "וּבְהֶמְתֶּךָ", p: "у-вэмтэ́ха", t: "и скот твой"}
+        ],
+        tr: "ло таасэ́ холь мелаха́ ата́ увинха́ увитэ́ха авдэ́ха ваааматэ́ха увэмтэ́ха",
+        ru: "не совершай никакой работы — ни ты, ни твой сын, ни твоя дочь, ни твой раб, ни твоя рабыня, ни твой скот,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "וְגֵרְךָ", p: "ве-гэрэ́ха", t: "и чужеземец твой"},
+            {w: "אֲשֶׁר", p: "ашэ́р", t: "который"},
+            {w: "בִּשְׁעָרֶיךָ", p: "би-шарэ́ха", t: "в воротах твоих"}
+        ],
+        tr: "вегэрэ́ха ашэ́р бишарэ́ха",
+        ru: "ни чужеземец, который в твоих воротах.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "כִּי", p: "ки", t: "ибо"},
+            {w: "שֵׁשֶׁת", p: "шэ́шэт", t: "шесть"},
+            {w: "יָמִים", p: "ями́м", t: "дней"},
+            {w: "עָשָׂה", p: "аса́", t: "создал"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֶת", p: "эт", t: "---"},
+            {w: "הַשָּׁמַיִם", p: "а-шама́йим", t: "небеса"},
+            {w: "וְאֶת", p: "ве-эт", t: "и"},
+            {w: "הָאָרֶץ", p: "а-э́рэц", t: "землю"},
+            {w: "אֶת", p: "эт", t: "---"},
+            {w: "הַיָּם", p: "а-я́м", t: "море"},
+            {w: "וְאֶת", p: "ве-эт", t: "и"},
+            {w: "כָּל", p: "коль", t: "всё"},
+            {w: "אֲשֶׁר", p: "ашэ́р", t: "что"},
+            {w: "בָּם", p: "бам", t: "в них"}
+        ],
+        tr: "ки шэшэ́т ями́м аса́ А-дона́й эт ашама́йим ве-э́т аэ́рэц эт ая́м ве-э́т коль ашэ́р бам",
+        ru: "Ибо шесть дней созидал Г-сподь небо и землю, море и всё, что их наполняет,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "וַיָּנַח", p: "ва-яна́х", t: "и пребывал в покое"},
+            {w: "בַּיּוֹם", p: "ба-йо́м", t: "в день"},
+            {w: "הַשְּׁבִיעִי", p: "а-шевии́", t: "седьмой"}
+        ],
+        tr: "ва-яна́х байо́м а-шевии́",
+        ru: "а в седьмой день пребывал в покое.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "עַל", p: "Аль", t: "По"},
+            {w: "כֵּן", p: "кэн", t: "сему"},
+            {w: "בֵּרַךְ", p: "бэра́х", t: "благословил"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֶת", p: "эт", t: "---"},
+            {w: "יוֹם", p: "йом", t: "день"},
+            {w: "הַשַּׁבָּת", p: "а-шаба́т", t: "субботний"},
+            {w: "וַיְקַדְּשֵׁהוּ", p: "вай-кадшэ́у", t: "и освятил его"}
+        ],
+        tr: "Аль кэн бера́х А-дона́й эт йом ашаба́т вайкадшэ́у",
+        ru: "Поэтому благословил Г-сподь седьмой день и освятил его.",
+        hr: true
+    },
+	{
+        customHTML: `
+            <hr><p>Над вином:</p>
+        `,
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֱלֹהֵינוּ", p: "Элоэ́ну", t: "Б-г наш"},
+            {w: "מֶלֶךְ", p: "Мэ́лэх", t: "Царь"},
+            {w: "הָעוֹלָם", p: "а-ола́м", t: "Вселенной"},
+            {w: "בּוֹרֵא", p: "борэ́", t: "Творящий"},
+            {w: "פְּרִי", p: "пери́", t: "плод"},
+            {w: "הַגָּפֶן", p: "а-гафэ́н", t: "виноградной лозы"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м борэ́ пери́ агафэ́н",
+        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной, творящий плод виноградной лозы.",
+        hr: true
+    },
+    {
+        customHTML: `
+            <p>Над хлебом (халой):</p>
+        `,
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֱלֹהֵינוּ", p: "Элоэ́ну", t: "Б-г наш"},
+            {w: "מֶלֶךְ", p: "Мэ́лэх", t: "Царь"},
+            {w: "הָעוֹלָם", p: "а-ола́м", t: "Вселенной"},
+            {w: "הַמּוֹצִיא", p: "а-моци́", t: "Выводящий"},
+            {w: "לֶחֶם", p: "лэхэ́м", t: "хлеб"},
+            {w: "מִן", p: "мин", t: "из"},
+            {w: "הָאָרֶץ", p: "а-э́рэц", t: "земли"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м амоци́ лэхэ́м мин аэ́рэц",
+        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной, производящий хлеб из земли.",
+        hr: true
+    },
+	{
+        customHTML: `
+            <hr><p>Авдала (отделение):</p>
+            <p>После окончания субботы, вечером, произносят, взяв в руки бокал вина:</p>
+        `,
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "הִנֵּה", p: "Инэ́", t: "Вот"},
+            {w: "אֵל", p: "Эль", t: "Б-г"},
+            {w: "יְשׁוּעָתִי", p: "йешуати́", t: "спасения моего"},
+            {w: "אֶבְטַח", p: "эвта́х", t: "буду спокоен"},
+            {w: "וְלֹא", p: "ве-ло́", t: "и не"},
+            {w: "אֶפְחָד", p: "эфха́д", t: "устрашусь"},
+            {w: "כִּי", p: "ки", t: "ибо"},
+            {w: "עָזִּי", p: "ози́", t: "сила моя"},
+            {w: "וְזִמְרָת", p: "ве-зимра́т", t: "и песнь моя"},
+            {w: "יָהּ", p: "Я", t: "Г-сподь"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "וַיְהִי", p: "вайи́", t: "и был"},
+            {w: "לִי", p: "ли", t: "мне"},
+            {w: "לִישׁוּעָה", p: "лишу́а", t: "спасением"}
+        ],
+        tr: "Инэ́ Эль йешуати́ эвта́х вело́ эфха́д ки ози́ везимра́т Я А-дона́й вайи́ ли лишу́а",
+        ru: "Вот Б-г моего спасения. Буду спокоен и не устрашусь, ибо моя сила и моя песнь — Предвечный Г-сподь, Который был мне спасением.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "וּשְׁאַבְתֶּם", p: "Ушавтэ́м", t: "И черпайте"},
+            {w: "מַיִם", p: "майи́м", t: "воду"},
+            {w: "בְּשָׂשׂוֹן", p: "бесасо́н", t: "в ликовании"},
+            {w: "מִמַּעַיְנֵי", p: "мимаайнэ́й", t: "из источников"},
+            {w: "הַיְשׁוּעָה", p: "айшу́а", t: "спасения"}
+        ],
+        tr: "Ушавтэ́м майи́м бесасо́н мимаайнэ́й айшу́а",
+        ru: "Черпайте воду, ликуя, из источников спасения.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "לַה'", p: "лА-дона́й", t: "У Г-спода"},
+            {w: "הַיְשׁוּעָה", p: "айшу́а", t: "спасение"},
+            {w: "עַל", p: "аль", t: "на"},
+            {w: "עַמְּךָ", p: "аме́ха", t: "народе Твоем"},
+            {w: "בִרְכָתֶךָ", p: "виртатэ́ха", t: "благословение Твое"},
+            {w: "סֶּלָה", p: "сэла́", t: "истинно"}
+        ],
+        tr: "лА-дона́й айшу́а аль аме́ха виртатэ́ха сэла́",
+        ru: "Спасение — от Г-спода; на народе — Твоё благословение.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "צְבָאוֹת", p: "цевао́т", t: "воинств"},
+            {w: "עִמָּנוּ", p: "има́ну", t: "с нами"},
+            {w: "מִשְׂגָּב", p: "мисга́в", t: "крепость"},
+            {w: "לָנוּ", p: "лану́", t: "наша"},
+            {w: "אֱלֹהֵי", p: "Элоэ́й", t: "Б-г"},
+            {w: "יַעֲקֹב", p: "Яако́в", t: "Яакова"},
+            {w: "סֶּלָה", p: "сэла́", t: "истинно"}
+        ],
+        tr: "А-дона́й цевао́т има́ну мисга́в лану́ Элоэ́й Яако́в сэла́",
+        ru: "Г-сподь воинств — с нами; наша крепость — Б-г Яакова.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "צְבָאוֹת", p: "цевао́т", t: "воинств"},
+            {w: "אַשְׁרֵי", p: "ашрэ́й", t: "счастлив"},
+            {w: "אָדָם", p: "ада́м", t: "человек"},
+            {w: "בֹּטֵחַ", p: "ботэа́х", t: "полагающийся"},
+            {w: "בָּךְ", p: "бах", t: "на Тебя"}
+        ],
+        tr: "А-дона́й цевао́т ашрэ́й ада́м ботэа́х бах",
+        ru: "Г-сподь воинств, — счастлив человек, полагающийся на Тебя.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "הוֹשִׁיעָה", p: "ошиа́", t: "спаси"},
+            {w: "הַמֶּלֶךְ", p: "а-Мэ́лэх", t: "Царь"},
+            {w: "יַעֲנֵנוּ", p: "яанэ́ну", t: "ответит нам"},
+            {w: "בְיוֹם", p: "бе-йо́м", t: "в день"},
+            {w: "קָרְאֵנוּ", p: "корэ́ну", t: "взывания нашего"}
+        ],
+        tr: "А-дона́й ошиа́ аМэ́лэх яанэ́ну вейо́м корэ́ну",
+        ru: "Г-сподь, спаси! Да ответит нам Царь, когда мы взываем к Нему!",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "לַיְּהוּדִים", p: "Лайеуди́м", t: "У иудеев"},
+            {w: "הָיְתָה", p: "айта́", t: "была"},
+            {w: "אוֹרָה", p: "ора́", t: "свет"},
+            {w: "וְשִׂמְחָה", p: "ве-симха́", t: "и радость"},
+            {w: "וְשָׂשֹׂן", p: "ве-сасо́н", t: "и ликование"},
+            {w: "וִיקָר", p: "вика́р", t: "и почет"},
+            {w: "כֵּן", p: "кэн", t: "так"},
+            {w: "תִּהְיֶה", p: "тийэ́", t: "будет"},
+            {w: "לָּנוּ", p: "лану́", t: "у нас"}
+        ],
+        tr: "Лайеуди́м айта́ ора́ весимха́ весасо́н вика́р, кэн тийэ́ лану́",
+        ru: "У иудеев были свет, веселье, ликование и почёт. Да будет так и с нами!",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "כּוֹס", p: "кос", t: "чашу"},
+            {w: "יְשׁוּעוֹת", p: "йешуао́т", t: "спасений"},
+            {w: "אֶשָּׂא", p: "эса́", t: "подниму"},
+            {w: "וּבְשֵׁם", p: "увшэ́м", t: "и во имя"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-спода"},
+            {w: "אֶקְרָא", p: "экра́", t: "призову"}
+        ],
+        tr: "кос йешуао́т эса́ увшэ́м А-дона́й экра́",
+        ru: "Вознесу чашу спасений и призову Имя Г-спода!",
+        hr: true
+    },
+	{
+        customHTML: `
+            <p>Над бокалом вина:</p>
+        `,
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "סַבְרִי", p: "Саври́", t: "Внемлите"},
+            {w: "מָרָנָן", p: "маранан", t: "господа мои"}
+        ],
+        tr: "Саври́, марана́н",
+        ru: "Внемлите, господа.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֱלֹהֵינוּ", p: "Элоэ́ну", t: "Б-г наш"},
+            {w: "מֶלֶךְ", p: "Мэ́лэх", t: "Царь"},
+            {w: "הָעוֹלָם", p: "а-ола́м", t: "Вселенной"},
+            {w: "בּוֹרֵא", p: "борэ́", t: "Творящий"},
+            {w: "פְּרִי", p: "пери́", t: "плод"},
+            {w: "הַגָּפֶן", p: "а-гафэ́н", t: "виноградной лозы"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м борэ́ пери́ агафэ́н",
+        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь вселенной, творящий плод виноградной лозы.",
+        hr: true
+    },
+    {
+        customHTML: `
+            <p>Над благовониями:</p>
+        `,
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֱלֹהֵינוּ", p: "Элоэ́ну", t: "Б-г наш"},
+            {w: "מֶלֶךְ", p: "Мэ́лэх", t: "Царь"},
+            {w: "הָעוֹלָם", p: "а-ола́м", t: "Вселенной"},
+            {w: "בּוֹרֵא", p: "борэ́", t: "Творящий"},
+            {w: "מִינֵי", p: "минэ́й", t: "виды"},
+            {w: "בְשָׂמִים", p: "весами́м", t: "благовоний"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м борэ́ минэ́й весами́м",
+        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь Вселенной, творящий ароматные вещества.",
+        hr: true
+    },
+    {
+        customHTML: `
+            <p>(женщина зажигает свечу:)</p>
+        `,
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֱלֹהֵינוּ", p: "Элоэ́ну", t: "Б-г наш"},
+            {w: "מֶלֶךְ", p: "Мэ́лэх", t: "Царь"},
+            {w: "הָעוֹלָם", p: "а-ола́м", t: "Вселенной"},
+            {w: "בּוֹרֵא", p: "борэ́", t: "Творящий"},
+            {w: "מְאוֹרֵי", p: "меорэ́й", t: "светила"},
+            {w: "הָאֵשׁ", p: "а-э́ш", t: "огня"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м борэ́ меорэ́й аэ́ш",
+        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь Вселенной, творящий сияние огня.",
+        hr: true
+    },
+    {
+        customHTML: `
+            <p>Завершают авдалу словами:</p>
+        `,
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "אֱלֹהֵינוּ", p: "Элоэ́ну", t: "Б-г наш"},
+            {w: "מֶלֶךְ", p: "Мэ́лэх", t: "Царь"},
+            {w: "הָעוֹלָם", p: "а-ола́м", t: "Вселенной"},
+            {w: "הַמַּבְדִּיל", p: "а-мавди́ль", t: "разделяющий"},
+            {w: "בֵּין", p: "бэн", t: "между"},
+            {w: "קֹדֶשׁ", p: "кодэ́ш", t: "святым"},
+            {w: "לְחוֹל", p: "ле-хо́ль", t: "и будничным"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й Элоэ́ну Мэ́лэх аола́м амавди́ль бэн кодэ́ш лехо́ль",
+        ru: "Благословен Ты, Г-сподь, наш Б-г, Царь Вселенной, отделяющий святое от будничного,",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "בֵּין", p: "бэн", t: "между"},
+            {w: "אוֹר", p: "ор", t: "светом"},
+            {w: "לְחֹשֶׁךְ", p: "ле-хошэ́х", t: "и тьмой"},
+            {w: "בֵּין", p: "бэн", t: "между"},
+            {w: "יִשְׂרָאֵל", p: "Йисраэ́ль", t: "Израилем"},
+            {w: "לָעַמִּים", p: "ла-ами́м", t: "и народами"},
+            {w: "בֵּין", p: "бэн", t: "между"},
+            {w: "יוֹם", p: "йом", t: "днем"},
+            {w: "הַשְּׁבִיעִי", p: "а-шевии́", t: "седьмым"},
+            {w: "לְשֵׁשֶׁת", p: "ле-шэшэ́т", t: "и шестью"},
+            {w: "יְמֵי", p: "йемэ́й", t: "днями"},
+            {w: "הַמַּעֲשֶׂה", p: "а-маасе́", t: "труда"}
+        ],
+        tr: "бэн ор лехошэ́х, бэн Йисраэ́ль лаами́м, бэн йом ашевии́ лешэшэ́т йемэ́й амаасе́",
+        ru: "свет от тьмы, Израиль от народов, седьмой день от шести дней труда.",
+        hr: false
+    },
+    {
+        hb_structured: [
+            {w: "בָּרוּךְ", p: "Бару́х", t: "Благословен"},
+            {w: "אַתָּה", p: "Ата́", t: "Ты"},
+            {w: "יְיָ", p: "А-дона́й", t: "Г-сподь"},
+            {w: "הַמַּבְדִּיל", p: "а-мавди́ль", t: "разделяющий"},
+            {w: "בֵּין", p: "бэн", t: "между"},
+            {w: "קֹדֶשׁ", p: "кодэ́ш", t: "святым"},
+            {w: "לְחוֹל", p: "ле-хо́ль", t: "и будничным"}
+        ],
+        tr: "Бару́х Ата́ А-дона́й амавди́ль бэн кодэ́ш лехо́ль",
+        ru: "Благословен Ты, Г-сподь, отделяющий святое от будничного.",
+        hr: true
+    },
+    {
+        customHTML: `
+            <p>Женщина может задуть свечу. Все желают друг другу:</p>
+            <p>Шавуа́ тов!</p>
+            <p>Хорошей недели!</p>
+        `,
+        hr: false
+    }
+];
 
-        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-        <!-- CORE PLUGINS -->
-        <script src="https://kifakz.github.io/vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="https://kifakz.github.io/vendor/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="https://kifakz.github.io/vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+const contentDiv = document.getElementById('prayer-content');
 
-        <!-- PAGE LEVEL PLUGINS -->
-        <script src="https://kifakz.github.io/vendor/jquery.easing.js" type="text/javascript"></script>
-        <script src="https://kifakz.github.io/vendor/jquery.back-to-top.js" type="text/javascript"></script>
-       
-        <script src="https://kifakz.github.io/vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="https://kifakz.github.io/vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
-        <script src="https://kifakz.github.io/vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="https://kifakz.github.io/vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+prayerData.forEach(item => {
+// А) ПРОВЕРЯЕМ ПРОИЗВОЛЬНЫЙ HTML
+    if (item.customHTML) {
+        const customWrapper = document.createElement('div');
+        customWrapper.innerHTML = item.customHTML;
+        contentDiv.appendChild(customWrapper);
+        return; // Заканчиваем с этим элементом и переходим к следующему
+    }
 
-        <!-- PAGE LEVEL SCRIPTS -->
-        <script src="https://kifakz.github.io/js/layout.min.js" type="text/javascript"></script>
-        <script src="https://kifakz.github.io/js/components/wow.min.js" type="text/javascript"></script>
-        <script src="https://kifakz.github.io/js/components/swiper.min.js" type="text/javascript"></script>
-        <script src="https://kifakz.github.io/js/components/masonry.min.js" type="text/javascript"></script>
+    // 2. СОЗДАЕМ МОЛИТВУ
+    const row = document.createElement('div');
+    row.className = 'prayer-row';
+    
+    let hebrewHTML = '';
+    item.hb_structured.forEach(part => {
+        hebrewHTML += `
+            <span class="hb-word">
+                ${part.w}
+                <span class="tooltip">
+                    <span class="tooltip-translit">${part.p}</span>
+                    <span class="tooltip-translation">${part.t}</span>
+                </span>
+            </span> `;
+    });
 
-    </body>
-    <!-- END BODY -->
-</html>          
+    row.innerHTML = `
+        <div class="hebrew">${hebrewHTML}</div>
+        <div class="translit">${item.tr}</div>
+        <div class="translation">${item.ru}</div>
+    `;
+    contentDiv.appendChild(row);
+
+// 3. ПРОВЕРЯЕМ РАЗДЕЛИТЕЛЬ (hr)
+    if (item.hr) {
+        const spacer = document.createElement('div');
+        spacer.className = 'spacer-hr'; // Создаем пустой блок для разрыва
+        contentDiv.appendChild(spacer);
+    }
+	});
+// Функция поиска и подсветки ближайшего к центру блока
+function updateActiveRow() {
+    const rows = document.querySelectorAll('.prayer-row');
+    let closestRow = null;
+    let minDistance = Infinity;
+    const viewportCenter = window.innerHeight / 2;
+
+    rows.forEach(row => {
+        const rect = row.getBoundingClientRect();
+        const rowCenter = rect.top + rect.height / 2;
+        const distance = Math.abs(viewportCenter - rowCenter);
+
+        if (distance < minDistance) {
+            minDistance = distance;
+            closestRow = row;
+        }
+    });
+
+    if (closestRow) {
+        rows.forEach(row => row.classList.remove('active-reading'));
+        closestRow.classList.add('active-reading');
+    }
+}
+
+// Оптимизированный слушатель скролла
+window.addEventListener('scroll', () => {
+    window.requestAnimationFrame(updateActiveRow);
+}, { passive: true });
+
+// Инициализация при открытии страницы
+window.addEventListener('load', updateActiveRow);
+
+    // 2. ЛОГИКА МЕНЮ
+    function toggleDropdown(button) {
+        let dropdown = button.nextElementSibling;
+        document.querySelectorAll(".dropdown-menu").forEach(menu => {
+            if (menu !== dropdown) menu.classList.remove("show");
+        });
+        if(dropdown) dropdown.classList.toggle("show");
+    }
+
+    // 3. ЗАГРУЗКА ФУТЕРА И ЦИТАТ (пути ведут на уровень выше ../)
+    async function loadFooter() {
+        try {
+            const response = await fetch('../footer.html');
+            document.getElementById('footer-container').innerHTML = await response.text();
+            getRandomQuote();
+        } catch (e) { console.error('Ошибка футера:', e); }
+    }
+
+    async function getRandomQuote() {
+        try {
+            const response = await fetch('../css/quotes.txt');
+            const text = await response.text();
+            const quotes = text.split('\n').filter(q => q.trim() !== '');
+            if (quotes.length > 0) {
+                const randomIndex = Math.floor(Math.random() * quotes.length);
+                document.getElementById('quote').innerHTML = quotes[randomIndex];
+            }
+        } catch (e) { console.error('Ошибка цитат:', e); }
+    }
+
+    // 4. РАДИО
+    function loadRadio() {
+        fetch('../radio.txt')
+            .then(r => r.text())
+            .then(url => {
+                const audio = document.createElement('audio');
+                audio.controls = true;
+                audio.src = url.trim();
+                const container = document.getElementById('radioContainer');
+                container.innerHTML = '';
+                container.appendChild(audio);
+            });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        loadFooter();
+        loadRadio();
+    });
+</script>
+</body>
+</html>

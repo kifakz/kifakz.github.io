@@ -101,6 +101,9 @@ const prayerData = [
 		hr: true
     },
 	{
+	customHTML: `
+            <p>Далее принято произносить или петь:</p>
+        `,
 		info: "Далее принято произносить или петь:",
 	    hb_structured: [
             {w: "שָׁלוֹם", p: "Шало́м", t: "Мир"},
@@ -210,7 +213,15 @@ const prayerData = [
 const contentDiv = document.getElementById('prayer-content');
 
 prayerData.forEach(item => {
-    // 1. ПРОВЕРЯЕМ ПОЯСНЕНИЕ (info)
+// А) ПРОВЕРЯЕМ ПРОИЗВОЛЬНЫЙ HTML
+    if (item.customHTML) {
+        const customWrapper = document.createElement('div');
+        customWrapper.innerHTML = item.customHTML;
+        contentDiv.appendChild(customWrapper);
+        return; // Заканчиваем с этим элементом и переходим к следующему
+    }
+
+    // Б) ПРОВЕРЯЕМ ПОЯСНЕНИЕ (info)
     if (item.info) {
         const infoBlock = document.createElement('div');
         infoBlock.className = 'instruction-block';

@@ -46,7 +46,7 @@
 	transition: all 0.4s ease-in-out;
     opacity: 0.4; /* Неактивные блоки приглушены */
     transform: scale(0.98); /* Немного уменьшаем для эффекта глубины */
-    
+    transition: opacity 0.6s ease, background 0.6s ease, transform 0.4s ease;
     /* Оставляем только одну тень для всего контура */
     box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08); 
     

@@ -104,8 +104,7 @@ const prayerData = [
 	customHTML: `
             <p>Далее принято произносить или петь:</p>
         `,
-		info: "Далее принято произносить или петь:",
-	    hb_structured: [
+		hb_structured: [
             {w: "שָׁלוֹם", p: "Шало́м", t: "Мир"},
             {w: "עֲלֵיכֶם", p: "алэ́хэм", t: "вам"},
             {w: "מַלְאֲכֵי", p: "малахэ́й", t: "посланцы (ангелы)"},
@@ -219,14 +218,6 @@ prayerData.forEach(item => {
         customWrapper.innerHTML = item.customHTML;
         contentDiv.appendChild(customWrapper);
         return; // Заканчиваем с этим элементом и переходим к следующему
-    }
-
-    // Б) ПРОВЕРЯЕМ ПОЯСНЕНИЕ (info)
-    if (item.info) {
-        const infoBlock = document.createElement('div');
-        infoBlock.className = 'instruction-block';
-        infoBlock.innerHTML = `<p>${item.info}</p>`;
-        contentDiv.appendChild(infoBlock);
     }
 
     // 2. СОЗДАЕМ МОЛИТВУ

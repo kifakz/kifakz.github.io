@@ -248,6 +248,30 @@ prayerData.forEach(item => {
         contentDiv.appendChild(spacer);
     }
 	});
+	// Настройка наблюдателя за скроллом
+const observerOptions = {
+    root: null, // следим относительно окна браузера
+    rootMargin: '-20% 0px -20% 0px', // триггер сработает, когда блок в центральной части (60% экрана)
+    threshold: 0.5 // блок считается активным, если виден наполовину
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Убираем подсветку у всех
+            document.querySelectorAll('.prayer-row').forEach(row => {
+                row.classList.remove('active-reading');
+            });
+            // Добавляем текущему
+            entry.target.classList.add('active-reading');
+        }
+    });
+}, observerOptions);
+
+// Запускаем слежку за каждой строкой молитвы
+document.querySelectorAll('.prayer-row').forEach(row => {
+    observer.observe(row);
+});
 
     // 2. ЛОГИКА МЕНЮ
     function toggleDropdown(button) {

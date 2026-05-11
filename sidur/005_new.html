@@ -248,32 +248,37 @@ prayerData.forEach(item => {
         contentDiv.appendChild(spacer);
     }
 	});
-	// Настройка наблюдателя за скроллом
-const observerOptions = {
-    root: null,
-    // Расширяем зону. Теперь мы смотрим на центральные 60% экрана
-    rootMargin: '-20% 0px -20% 0px', 
-    // Порог 0.5 означает: блок должен быть виден наполовину в этой зоне
-    threshold: 0.5 
-};
+// Функция поиска и подсветки ближайшего к центру блока
+function updateActiveRow() {
+    const rows = document.querySelectorAll('.prayer-row');
+    let closestRow = null;
+    let minDistance = Infinity;
+    const viewportCenter = window.innerHeight / 2;
 
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            // Убираем активный класс у всех
-            document.querySelectorAll('.prayer-row').forEach(row => {
-                row.classList.remove('active-reading');
-            });
-            // Добавляем тому, кто пересек черту
-            entry.target.classList.add('active-reading');
+    rows.forEach(row => {
+        const rect = row.getBoundingClientRect();
+        const rowCenter = rect.top + rect.height / 2;
+        const distance = Math.abs(viewportCenter - rowCenter);
+
+        if (distance < minDistance) {
+            minDistance = distance;
+            closestRow = row;
         }
     });
-}, observerOptions);
 
-// Запускаем слежку за каждой строкой молитвы
-document.querySelectorAll('.prayer-row').forEach(row => {
-    observer.observe(row);
-});
+    if (closestRow) {
+        rows.forEach(row => row.classList.remove('active-reading'));
+        closestRow.classList.add('active-reading');
+    }
+}
+
+// Оптимизированный слушатель скролла
+window.addEventListener('scroll', () => {
+    window.requestAnimationFrame(updateActiveRow);
+}, { passive: true });
+
+// Инициализация при открытии страницы
+window.addEventListener('load', updateActiveRow);
 
     // 2. ЛОГИКА МЕНЮ
     function toggleDropdown(button) {

@@ -34,69 +34,70 @@
     font-weight: bold;
 }
 
-    /* Стили для строк молитвы */
-.prayer-row {
-	padding: 60px 25px; 
-    margin: 5px auto;
+.prayer-row { 
     display: flex; 
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
+    position: relative; /* Нужно для работы ::after */
     
-    /* Используем rgba для фона вместо opacity всего блока */
+    /* Фон и размытие */
     background: rgba(255, 255, 255, 0.02); 
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* Для Safari на iPhone */
+    -webkit-backdrop-filter: blur(10px);
     
+    /* Геометрия */
     border-radius: 20px;
-    margin: 10px auto; 
-    padding: 35px 25px; 
+    margin: 0 auto; 
+    padding: 60px 25px; /* Увеличенный отступ для стабильной подсветки */
     width: 100%;
     max-width: 850px;
     
-    /* Плавность только для фона и трансформации */
-    transition: background 0.4s ease, transform 0.3s ease, box-shadow 0.4s ease;
+    /* Граница слева (подготовлена для active) */
+    border-left: 3px solid transparent;
     
-    /* Убираем синее выделение при нажатии на телефоне */
+    /* Анимации и оптимизация */
+    transition: all 0.4s ease;
     -webkit-tap-highlight-color: transparent;
-    
-    /* Текст всегда белый, без прозрачности, чтобы не моргал */
     color: #ffffff !important;
 }
 
-/* Состояние ПОД КУРСОРОМ на ПК (убираем белый фон) */
+/* Эффект при наведении на ПК */
 .prayer-row:hover {
     background: rgba(255, 255, 255, 0.04);
 }
 
-/* АКТИВНЫЙ БЛОК (читаемый) */
+/* АКТИВНЫЙ БЛОК (фокус при чтении) */
 .prayer-row.active-reading {
-    background: rgba(255, 255, 255, 0.07) !important; /* Четкий акцент */
-    transform: scale(1.02); /* Легкое увеличение */
-	box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.05);
-    transform: scale(1.01);
+    background: rgba(255, 255, 255, 0.12) !important;
+    border-left: 3px solid #d35400; /* Та самая оранжевая линия */
+    transform: scale(1.01) translateX(5px); /* Чуть увеличиваем и сдвигаем */
+    z-index: 5;
 }
 
-/* Склеивание: удаляем лишние скругления */
+/* --- ЛОГИКА СКЛЕИВАНИЯ --- */
+
+/* Убираем нижние углы у всех, кроме последнего в группе */
 .prayer-row:not(:last-child) {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
 
+/* Убираем верхние углы у тех, кто идет сразу за другим блоком */
 .prayer-row + .prayer-row {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    margin-top: -1.5px; 
+    margin-top: -1px; /* Стык в стык */
 }
 
+/* Маскировка линии стыка */
 .prayer-row:not(:last-child)::after {
     content: "";
     position: absolute;
     bottom: -1px;
-    left: 1px;
+    left: 4px; /* Чуть отступаем от оранжевой линии */
     right: 1px;
     height: 2px;
-    /* Этот фон "замазывает" стык тем же цветом, что и основная плашка */
     background: rgba(255, 255, 255, 0.03); 
     z-index: 2;
 }

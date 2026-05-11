@@ -2,6 +2,10 @@
 * {
     box-sizing: border-box; /* Гарантирует, что border-left не увеличивает ширину */
 }
+
+.hb-word:hover .tooltip {
+    z-index: 9999 !important; /* Максимальный приоритет */
+}
 #prayer-content {
     width: 100%;
     overflow-x: hidden; /* Запрещаем горизонтальную прокрутку на корню */
@@ -48,7 +52,7 @@
     align-items: center; 
     text-align: center; 
     position: relative;
-    
+    overflow: visible !important;
     background: rgba(255, 255, 255, 0.02); 
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -75,7 +79,7 @@
     /* Оставляем только очень легкий scale, если он нужен */
     transform: scale(1.01); 
     
-    z-index: 5;
+    z-index: 10;
 }
 
 /* --- ЛОГИКА СКЛЕИВАНИЯ --- */

@@ -1,0 +1,272 @@
+    /* Основные настройки контейнера */
+    .prayer-container { 
+        max-width: 900px; 
+        margin: 40px auto; 
+        padding: 0 20px; 
+        color: white; /* Весь текст по умолчанию светлый */
+    }
+
+
+    /* Стили для пояснительного текста (инструкций) */
+  .instruction-block {
+    text-align: center;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background: rgba(211, 84, 0, 0.07); /* Совсем легкий оранжевый оттенок фона */
+    border-radius: 12px;
+    border: 1px solid rgba(211, 84, 0, 0.2); /* Тонкая рамка вместо одной полосы слева */
+    max-width: 800px;
+}
+
+.instruction-block p { 
+    font-style: normal; /* Убираем курсив */
+    color: #e0e0e0;     /* Делаем текст почти белым для контраста */
+    font-size: 1.2rem;  /* Увеличиваем размер */
+    line-height: 1.6;   /* Увеличиваем межстрочный интервал */
+    margin: 0;
+}
+
+/* Название заголовка внутри инструкции (если используешь h2 или h3) */
+.instruction-block .section-title {
+    color: #ff851b;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+    /* Стили для строк молитвы */
+
+/* Основной контейнер для строки молитвы (теперь это карточка) */
+/* Базовая карточка */
+.prayer-row { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(5px);
+    
+    /* Используем box-shadow вместо border для идеально ровного контура */
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08); 
+    
+    border-radius: 20px;
+    margin: 0 auto; 
+    padding: 30px 25px; 
+    max-width: 850px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Склеивание: убираем нижние углы и нижнюю тень у всех, кроме последнего в группе */
+.prayer-row:not(:last-child) {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    /* Оставляем тень только по бокам и сверху */
+    box-shadow: 1px 0 0 0 rgba(255, 255, 255, 0.08), 
+               -1px 0 0 0 rgba(255, 255, 255, 0.08), 
+                0 -1px 0 0 rgba(255, 255, 255, 0.08);
+}
+
+/* Склеивание: убираем верхние углы и накладываем блоки на 1px друг на друга */
+.prayer-row + .prayer-row {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: -1px; /* Тот самый нахлест для бесшовности */
+}
+
+/* Чтобы нахлест не создавал двойную линию, убираем верхнюю тень у последующих блоков */
+.prayer-row + .prayer-row {
+    box-shadow: 1px 0 0 0 rgba(255, 255, 255, 0.08), 
+               -1px 0 0 0 rgba(255, 255, 255, 0.08), 
+                0 1px 0 0 rgba(255, 255, 255, 0.08); /* Оставляем только бока и низ */
+}
+
+/* Для самой последней карточки в группе возвращаем полную тень */
+.prayer-row:last-child, .spacer-hr + .prayer-row:last-child {
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+/* Блок-разрыв (когда hr: true) */
+.spacer-hr {
+    height: 40px; 
+    display: block;
+    clear: both;
+}
+
+    .hebrew { 
+        font-family: 'Assistant', sans-serif; 
+        font-size: 2.1rem;
+        color: #ffffff; 
+        direction: rtl; 
+        line-height: 1.2;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .translit { 
+        font-size: 1.3rem; 
+        color: #ff851b; /* Более яркий оранжевый для черного фона */
+        font-weight: bold; 
+        margin: 15px 0 5px 0;
+        letter-spacing: 0.5px;
+    }
+
+    .translation { 
+        font-size: 1.2rem; 
+        color: #ecf0f1; 
+        font-family: 'Playfair Display', serif; 
+        max-width: 80%;
+    }
+
+    .section-title { 
+        text-align: center; 
+        color: #d35400; 
+        margin-bottom: 10px; 
+        font-family: 'Playfair Display', serif; 
+        font-size: 2rem;
+    }
+	/* Стили для выбора молитв */
+.prayer-navigation {
+    margin: 20px auto 40px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav-title {
+    font-family: 'Playfair Display', serif;
+    color: #bdc3c7;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    background: rgba(211, 84, 0, 0.1); /* Прозрачный оранжевый */
+    border: 1px solid rgba(211, 84, 0, 0.3);
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background: #d35400;
+    color: white;
+    border-color: #d35400;
+}
+
+/* Компактный переключатель молитв */
+.prayer-selector {
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+
+.custom-select {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 10px 20px;
+    border: 1px solid #d35400;
+    border-radius: 25px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    appearance: none; /* Убираем стандартную стрелку браузера */
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d35400' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 15px;
+    padding-right: 40px;
+    transition: all 0.3s ease;
+}
+
+.custom-select:hover {
+    border-color: #ff851b;
+    box-shadow: 0 0 10px rgba(211, 84, 0, 0.3);
+}
+/* Стиль для слов, которые можно перевести */
+/* Базовое слово */
+.hb-word {
+    cursor: help;
+    border-bottom: 2px dotted rgba(211, 84, 0, 0.5);
+    transition: all 0.2s;
+    position: relative;
+    display: inline-block;
+    padding: 0 2px;
+}
+
+.hb-word:hover {
+    background: rgba(211, 84, 0, 0.15);
+    border-bottom: 2px solid #ff851b;
+    border-radius: 4px;
+}
+
+/* Контейнер подсказки */
+.hb-word .tooltip {
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2c3e50; /* Темный фон, чтобы выделялся */
+    border: 1px solid #d35400;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-family: 'Segoe UI', sans-serif;
+    white-space: nowrap;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 100;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* Треугольничек внизу подсказки */
+.hb-word .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #d35400 transparent transparent transparent;
+}
+
+.hb-word:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    bottom: 140%;
+}
+
+/* Стили внутри подсказки */
+.tooltip-translit {
+    color: #ff851b; /* Оранжевый для произношения */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 4px;
+}
+
+.tooltip-translation {
+    color: #ecf0f1; /* Белый для перевода */
+    display: block;
+    font-style: italic;
+}
